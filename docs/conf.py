@@ -35,8 +35,8 @@ html_static_path = ['source/_static']
 html_css_files = [
     'css/mukurtu.css'
 ]
-html_logo = "logo.png"
-html_favicon = 'favicon.ico'
+html_logo = 'source/_staticlogo.png'
+html_favicon = 'source/_staticfavicon.ico'
 html_theme_options = {
     'style_external_links': True,
     'style_nav_header_background': '#343131',
