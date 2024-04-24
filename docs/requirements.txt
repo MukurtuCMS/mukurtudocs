@@ -10,7 +10,7 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
-myst-parser==3.0.0
+myst-parser==2.0.0
 packaging==24.0
 Pygments==2.17.2
 PyYAML==6.0.1
