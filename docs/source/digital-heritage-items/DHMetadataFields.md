@@ -2,7 +2,7 @@
 
 This article provides detail for each of the Digital Heritage Item metadata fields. All the information here is presented in the helper text within the Digital Heritage Item edit/creation screen. 
 
-Attached are a PDF copy of this article, and an editable DOCX copy of this article that can be downloaded and edited as needed.
+[PDF download of DH Metadata Fields](../embeds/Digital-Heritage-Default-Field-Format-Information.pdf)
 
 ## Mukurtu Essentials
 
