@@ -34,8 +34,8 @@ Items can also be added to collections from the **Edit Digital Heritage Item** p
 ![creating a collection 04](../embeds/creatingcollections04.png)
 
 
-See [Adding cultural protocols to collection pages]() and [Related content]() for more advanced collections tools.
+See [Adding cultural protocols to collection pages](https://mukurtu.org/support/adding-cultural-protocols-to-collection-pages/) and [Related content](https://mukurtu.org/support/related-content/) for more advanced collections tools.
 
 ##  Collections Tree
 
-See [Managing sub-collections]() for more information on the **collections tree tab**.
+See [Managing sub-collections](https://mukurtu.org/support/managing-sub-collections/) for more information on the **collections tree tab**.
