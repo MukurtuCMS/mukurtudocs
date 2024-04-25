@@ -31,12 +31,12 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['source/_static']
+html_static_path = ['_static']
 html_css_files = [
     'css/mukurtu.css'
 ]
-html_logo = 'source/_static/logo.png'
-html_favicon = 'source/_static/favicon.ico'
+html_logo = 'logo.png'
+html_favicon = 'favicon.ico'
 html_theme_options = {
     'style_external_links': True,
     'style_nav_header_background': '#343131',
