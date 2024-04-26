@@ -19,8 +19,9 @@
     margin: 0 auto;
 }
 
-.blockquote {
+.rst-content blockquote {
     padding: 0 1em;
-    color: var(--fgColor-muted, var(--color-fg-muted));
-    border-left: .25em solid var(--borderColor-default, var(--color-border-default));
+    color: #999999;
+    border-left: .25em solid;
+    border-left-color: #DC8633;
 }
