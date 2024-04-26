@@ -22,9 +22,13 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
 
 .. toctree::
    :maxdepth: 1
+   :caption: Migrating from Mukurtu 3 to 4
+
+   migration/MigrationOverview
+
+.. toctree::
+   :maxdepth: 1
    :caption: Site Hosting, Setup, and Administration
-
-
 
 .. toctree::
    :maxdepth: 1
