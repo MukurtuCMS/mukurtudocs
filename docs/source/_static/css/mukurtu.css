@@ -21,7 +21,7 @@
 
 .rst-content blockquote {
     padding: 0 1em;
-    color: #999999;
+    background-color: #999999;
     border-left: .25em solid;
     border-left-color: #DC8633;
 }
