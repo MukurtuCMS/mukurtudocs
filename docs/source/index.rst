@@ -12,7 +12,7 @@ We provide basic training and troubleshooting through web conference, phone call
 
 Mukurtu CMS, Mukurtu Support resources, and all materials on `mukurtu.org <https://mukurtu.org>`_ are distributed under the terms of the `GNU General Public License version 3 <https://www.gnu.org/licenses/quick-guide-gplv3.html>`_ (or "GPLv3"), which means anyone is free to download and share them with others.
 
-The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Latest PDF version </downloads/en/latest/pdf/>`_
+The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Latest PDF version <https://mukurtudocs.readthedocs.io/_/downloads/en/latest/pdf/>`_
 
 .. toctree::
    :maxdepth: 1
