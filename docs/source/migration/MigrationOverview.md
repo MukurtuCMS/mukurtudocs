@@ -4,7 +4,7 @@ Migrating from a current Mukurtu 3 site to a new Mukurtu 4 site will be straight
 
 
 
-> If you have made any of the following modifications to your Mukurtu 3 site, or believe that you will require additional migrationg support, please contact us at [support@mukurtu.org](mailto:support@mukurtu.org?subject="Mukurtu 4 migration support") as the migration tool will not operate properly without modification.
+> If you have made any of the following modifications to your Mukurtu 3 site, or believe that you will require additional migrationg support, please contact us at [support@mukurtu.org](mailto:support@mukurtu.org?subject=Mukurtu%204%20migration%20support) as the migration tool will not operate properly without modification.
 > - Added, removed, or modified the data structure of any metadata fields.
 > - Added, removed, or modified any content types.
 > - Added, removed, or modified any Mukurtu features or tools.
@@ -12,5 +12,11 @@ Migrating from a current Mukurtu 3 site to a new Mukurtu 4 site will be straight
 
 ## Migration steps
 
-1) Plan for the migration
-2) 
+1) Plan for the migration.
+2) Update Mukurtu 3 site to version XXXXX (for access to pre-migration tools).
+3) Run the Mukurtu 3 pre-migration tools and resolve all outstanding issues.
+4) Install a new Mukurtu 4 site (do not begin using the site).
+5) Manually copy media directory.
+6) Run the Mukurtu 4 migration tool.
+
+
