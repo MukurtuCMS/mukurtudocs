@@ -1,9 +1,9 @@
-.. Mukurtu Support documentation master file, created by
+.. Mukurtu 4 User Manual documentation master file, created by
    sphinx-quickstart on Mon Apr 22 11:20:13 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Mukurtu Support's documentation!
+Welcome to the Mukurtu 4 User Manual
 ===========================================
 
 All Mukurtu support articles and training resources are posted to our main support site at `support.mukurtu.org <https://support.mukurut.org>`_. These are free.
