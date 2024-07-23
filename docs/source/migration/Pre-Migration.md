@@ -40,5 +40,9 @@ You can also access the report by following the "View Migration Preparation Summ
 
 ![pre-migration01](../embeds/pre-migration01.png)
 
+The report should run automatically, but you can click the "Run Pre-migration Report" button at any time to re-run the report. Your report will likely look something like this (but with more items identified).
+
+![pre-migration02](../embeds/pre-migration02.png)
+
 ## Resolve pre-migration activities
 
