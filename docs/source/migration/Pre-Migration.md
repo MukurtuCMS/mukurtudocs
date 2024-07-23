@@ -12,7 +12,7 @@ You can access the pre-migration report directly at /admin/reports/migration/sum
 
 You can also access the report by following the "View Migration Preparation Summary" link on your dashboard.
 
-![creating a collection 02](../embeds/creatingcollections02.png)
+![pre-migration01](../embeds/pre-migration01.png)
 
 ## Resolve pre-migration activities
 
