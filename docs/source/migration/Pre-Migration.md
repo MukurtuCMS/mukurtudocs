@@ -46,3 +46,46 @@ The report should run automatically, but you can click the "Run Pre-migration Re
 
 ## Resolve pre-migration activities
 
+Each category will have a summary in the "status" field on the right, which includes a link to a more detailed report and actions.
+
+### Text formats "Markdown" and "Display Suite code"
+
+There are 2 nodes with these text formats: 1, 143.
+   - These formats are not supported by default in Mukurtu 4 and will not be migrated.
+   - These formats are most commonly used to implement custom styling on basic pages, community pages, and in some DH items.
+   - You will need to manually change these fields to use a supported format.
+
+### Content (nodes) with no assigned protocols
+
+2 items(s) with missing cultural protocols: Details
+   - In Mukurtu 4 cultural protocols are required for ALL content types.
+   - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not included for person records and word lists.
+   - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
+
+### Media assets (atoms) with no assigned protocols
+
+1 atom(s) with missing cultural protocols: Details
+   - In Mukurtu 4 cultural protocols are required for ALL media assets.
+   - In Mukurtu 3 protocols were optional, but recommended.
+   - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
+
+### Dictionary words with additional media
+
+1 dictionary word(s) with additional media: Details
+   - In Mukurtu 4 there is both a thumbnail and an additional media field, and the additional media field works quite differently than in Mukurtu 3.
+   - The contents of the additional media field will NOT be migrated.
+   - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or additional media field if you want them to be included in the migration.
+
+### Dailymotion media assets (atoms)
+
+No Dailymotion atoms found
+   - Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
+   - Dailymotion media assets will NOT be migrated.
+   - If you have any Dailymotion videos, you will need to move them to a different hosting platform and manually update the media assets and content that references them.
+
+### Scald authors field
+
+1 atom(s) use the Authors field: Details
+   - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. We are not aware of any Mukurtu sites actively using this field.
+   - No action is required.
+
