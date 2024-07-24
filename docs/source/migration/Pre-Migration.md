@@ -34,6 +34,8 @@ If you are hosting with Reclaim Hosting, see these instructions to update your s
 
 ## Run the pre-migration report
 
+It is best for these actitivities to be run by a drupal administrator to ensure all content is addressed. The account *may* need to enrolled in additional protocols.
+
 You can access the pre-migration report directly at /admin/reports/migration/summary (eg: https://mysite.com/admin/reports/migration/summary).
 
 You can also access the report by following the "View Migration Preparation Summary" link on your dashboard.
@@ -62,6 +64,33 @@ You MUST resolve "content nodes with no protocols" before resolving "media asset
    - In Mukurtu 4 cultural protocols are required for ALL content types.
    - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not included for person records and word lists.
    - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
+
+The content with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected content.
+![pre-migration-content-01](../embeds/pre-migration-content-01.png)
+
+If necessary, filter by content type. This is useful if for example you know that all dicitonary words will continue to be public or under a single protocol, but collections will require a per-collection decision.
+![pre-migration-content-02](../embeds/pre-migration-content-02.png)
+
+If you need to review content one by one, you can click on the title to go to the content page.
+If you want to bulk process content, from the operations dropdown select "set cultural protocols for content". All content selected will use the same protocol(s), so you may need to go through this multiple times selecting different content for different protocol(s).
+![pre-migration-content-03](../embeds/pre-migration-content-03.png)
+
+Select the content using the check boxes (you can select all content by using the checkbox in the top row).
+Click "execute".
+![pre-migration-content-04](../embeds/pre-migration-content-04.png)
+
+Select the appropriate item sharing setting. If using one protocol, select "ALL" (the default setting when creating content).
+![pre-migration-content-05](../embeds/pre-migration-content-05.png)
+
+Use the checkboxes to select the appropriate protocol(s).
+Click "next".
+![pre-migration-content-06](../embeds/pre-migration-content-06.png)
+
+If the list looks correct, click "confirm".
+![pre-migration-content-07](../embeds/pre-migration-content-07.png)
+
+A confirmation message will be displayed.
+![pre-migration-content-08](../embeds/pre-migration-content-08.png)
 
 ### Media assets (atoms) with no assigned protocols
 
