@@ -48,6 +48,8 @@ The report should run automatically, but you can click the "Run Pre-migration Re
 
 Each category will have a summary in the "status" field on the right, which includes a link to a more detailed report and actions.
 
+You MUST resolve "content nodes with no protocols" before resolving "media assets with no protocols". Otherwise ou can resolve these activities in whichever order your prefer.
+
 ### Text formats "Markdown" and "Display Suite code"
 
 "There are __ nodes with these text formats: [NIDs]."
@@ -78,9 +80,13 @@ Each category will have a summary in the "status" field on the right, which incl
 ### Dailymotion media assets (atoms)
 
 "No Dailymotion atoms found"
-   - Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
    - Dailymotion media assets will NOT be migrated.
-   - If you have any Dailymotion videos, you will need to move them to a different hosting platform and manually update the media assets and content that references them.
+   - There is no automated process to resolve Dailymotion videos.
+   - If you have any Dailymotion videos, you will need to...
+     1) Move them to a different hosting platform (either Vimeo or Youtube) or upload them directly to the site (not recommended).
+     2) Create new media assets for the newly hosted videos.
+     3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
+     4) Delete the old Dailymotion media assets.
 
 ### Scald authors field
 
