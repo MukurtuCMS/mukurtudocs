@@ -52,15 +52,8 @@ Each category will have a summary in the "status" field on the right, which incl
 
 You MUST resolve "content nodes with no protocols" before resolving "media assets with no protocols". Otherwise ou can resolve these activities in whichever order your prefer.
 
-### Text formats "Markdown" and "Display Suite code"
-
-"There are __ nodes with these text formats: [NIDs]."
-> UPDATES NEEDED
-
-
 ### Content (nodes) with no assigned protocols
 
-"__ items(s) with missing cultural protocols: Details"
    - In Mukurtu 4 cultural protocols are required for ALL content types.
    - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not included for person records and word lists.
    - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
@@ -94,21 +87,26 @@ A confirmation message will be displayed.
 
 ### Media assets (atoms) with no assigned protocols
 
-"__ atom(s) with missing cultural protocols: Details"
    - In Mukurtu 4 cultural protocols are required for ALL media assets.
    - In Mukurtu 3 protocols were optional, but recommended.
    - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
 
+> SCREENSHOTS NEEDED
+
+### Text formats "Markdown" and "Display Suite code"
+
+> SCREENSHOTS NEEDED
+
 ### Dictionary words with additional media
 
-"__ dictionary word(s) with additional media: Details"
    - In Mukurtu 4 there is both a thumbnail and an additional media field, and the additional media field works quite differently than in Mukurtu 3.
    - The contents of the additional media field will NOT be migrated.
    - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or additional media field if you want them to be included in the migration.
 
+> SCREENSHOTS NEEDED
+
 ### Dailymotion media assets (atoms)
 
-"No Dailymotion atoms found"
    - Dailymotion media assets will NOT be migrated.
    - There is no automated process to resolve Dailymotion videos.
    - If you have any Dailymotion videos, you will need to...
@@ -117,13 +115,14 @@ A confirmation message will be displayed.
      3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
      4) Delete the old Dailymotion media assets.
 
+> SCREENSHOTS NEEDED
+
 ### Scald authors field
 
-"__ atom(s) use the Authors field: Details"
    - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. There is a separate "author" field that automatically records the user responsible for uploading the media asset.
    - No action is required, you can leave this field populated and it will not affect the migration.
-   - 
 
+> SCREENSHOTS NEEDED
 
 
 ## Pre-migration work complete
