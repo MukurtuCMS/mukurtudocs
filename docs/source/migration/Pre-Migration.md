@@ -91,11 +91,18 @@ A confirmation message will be displayed.
    - In Mukurtu 3 protocols were optional, but recommended.
    - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
 
-> SCREENSHOTS NEEDED
+![pre-migration-media-01](../embeds/pre-migration-media-01.png)
+![pre-migration-media-02](../embeds/pre-migration-media-02.png)
+![pre-migration-media-03](../embeds/pre-migration-media-03.png)
+![pre-migration-media-04](../embeds/pre-migration-media-04.png)
+![pre-migration-media-05](../embeds/pre-migration-media-05.png)
+
 
 ### Text formats "Markdown" and "Display Suite code"
 
-> SCREENSHOTS NEEDED
+![pre-migration-text-01](../embeds/pre-migration-text-01.png)
+![pre-migration-text-02](../embeds/pre-migration-text-02.png)
+![pre-migration-text-03](../embeds/pre-migration-text-03.png)
 
 ### Dictionary words with additional media
 
@@ -103,7 +110,9 @@ A confirmation message will be displayed.
    - The contents of the additional media field will NOT be migrated.
    - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or additional media field if you want them to be included in the migration.
 
-> SCREENSHOTS NEEDED
+![pre-migration-dictionary-media-01](../embeds/pre-migration-dictionary-media-01.png)
+![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-02.png)
+![pre-migration-dictionary-media-03](../embeds/pre-migration-dictionary-media-03.png)
 
 ### Dailymotion media assets (atoms)
 
@@ -115,14 +124,19 @@ A confirmation message will be displayed.
      3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
      4) Delete the old Dailymotion media assets.
 
-> SCREENSHOTS NEEDED
+> SCREENSHOTS NEEDED?
 
 ### Scald authors field
 
    - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. There is a separate "author" field that automatically records the user responsible for uploading the media asset.
    - No action is required, you can leave this field populated and it will not affect the migration.
 
-> SCREENSHOTS NEEDED
+![pre-migration-scald-authors-01](../embeds/pre-migration-scald-authors-01.png)
+![pre-migration-scald-authors-02](../embeds/pre-migration-scald-authors-02.png)
+![pre-migration-scald-authors-03](../embeds/pre-migration-scald-authors-03.png)
+![pre-migration-scald-authors-04](../embeds/pre-migration-scald-authors-04.png)
+![pre-migration-scald-authors-05](../embeds/pre-migration-scald-authors-05.png)
+![pre-migration-scald-authors-06](../embeds/pre-migration-scald-authors-06.png)
 
 
 ## Pre-migration work complete
