@@ -26,6 +26,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
 
    migration/MigrationOverview
    migration/Pre-Migration
+   migration/migration
 
 .. toctree::
    :maxdepth: 1
