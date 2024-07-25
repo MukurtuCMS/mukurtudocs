@@ -18,8 +18,10 @@ The migration tools have been developed to migrate all site content. This does N
 4) Install a new Mukurtu 4 site (do not begin using the site).
 5) Manually copy media directory.
 6) Run the Mukurtu 4 migration tool.
-7) Ensure that the migration was successful and site is operating as expected.
-8) Decommission the Mukurtu 3 site.
+7) Ensure that the migration was successful.
+8) Complete any required configuration updates.
+9) Confirm that the site is operating as expected.
+10) Decommission the Mukurtu 3 site.
 
 If you have any questions, please contact us at [support@mukurtu.org](mailto:support@mukurtu.org?subject=Mukurtu%204%20migration%20support).
 
