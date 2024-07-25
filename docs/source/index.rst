@@ -25,6 +25,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: Migration from Mukurtu 3 to 4
 
    migration/MigrationOverview
+   migration/MigrationPlanning
    migration/Pre-Migration
    migration/Migration
 
