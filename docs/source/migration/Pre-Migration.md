@@ -91,10 +91,36 @@ A confirmation message will be displayed.
    - In Mukurtu 3 protocols were optional, but recommended.
    - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
 
+The Scald Atoms with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected media assets.
+If you have media assets that already had a protocol assigned during their creation, they will not be listed here.
 ![pre-migration-media-01](../embeds/pre-migration-media-01.png)
+
+If necessary, filter by media type.
 ![pre-migration-media-02](../embeds/pre-migration-media-02.png)
+
+If you need to review media assets one by one, you can click on the title to go to the media asset page.
+If you want to bulk process media, from the operations dropdown select one of the two actions:
+- "Duplicate cultural protocols from item"
+  - This is going to be the most commonly used action.
+  - It will look at the protocol(s) used on the content and apply those same protocols to the media assets.
+  - This will mostly apply in cases where for public content users didn't bother applying protocols to media assets, or where for non public content protocols were missed on media assets.
+- "Set cultural protocols for scald atoms".
+  - On many sites this action may not be needed at all.
+  - It allows you to manually set protocols on media assets and works the same as "Content (nodes) with no assigned protocols" - see above for instructions.
+  - This will be used if there are media assets that are NOT included in any content. In this case you may instead prefer to delete unused media assets, or create a "to be reviewed" protocol to ensure that the migration can be complete and you can review them later.
+  - It can also be used in cases where you want a different protocol between content and media assets, but it is likely that you have already implemented that, since it's usualyl the case where media assets will have a stricter protocol than the content.
+
+Some media assets may require manually assigning a protocol. Likely cases include:
+- Where a media asset has been used in multiple content (eg: in a DH item and set as a collection image)
+
+Select the media assets using the check boxes (you can select all content by using the checkbox in the top row).
+Click "execute".
 ![pre-migration-media-03](../embeds/pre-migration-media-03.png)
+
+If the list looks correct, click "confirm".
 ![pre-migration-media-04](../embeds/pre-migration-media-04.png)
+
+A confirmation message will be displayed.
 ![pre-migration-media-05](../embeds/pre-migration-media-05.png)
 
 
