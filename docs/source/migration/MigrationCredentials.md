@@ -29,10 +29,12 @@ Select the "advanced" tab.
 ![migration-credentials-05](../embeds/migration-credentials-05.png)
 
 Record the following information. We recommend copying this into a local text document.
+- Database Type
 - Database Host
 - Database Name
 - Database Username
 - Database Password (you can click on the "show password" button to expose this)
+
 ![migration-credentials-06](../embeds/migration-credentials-06.png)
 
 ## Finding database credentials for self hosted sites
