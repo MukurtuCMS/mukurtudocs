@@ -1,5 +1,7 @@
 # Running the Mukurtu 3 to Mukurtu 4 migration
 
+> These steps assume that you are migrating within the same hosting environment. If you are changing hosting providers or hosting environments please contact [support@mukurtu.org](mailto:support@mukurtu.org).
+
 Go to /dashboard/migrate or from the dashboard, click on "Migrate from Mukurtu CMS version 3"
 
 ![migrate-01](../embeds/migrate-01.png)
@@ -14,7 +16,22 @@ Review the preparation steps and click "Continue" when ready.
 
 Enter the Mukurtu 3 database credentials you identified earlier (Preparing Migration Credentials). 
 
-> CONFIRM THIS Note that if your database type was "mySQL", you should select "MariaDB".
+- Database Type
+  - If you are using Reclaim Hosting and your current database was "mysql", select "MariaDB".
+- Database Host
+  - If you are using Reclaim Hosting it will probably be "localhost".
+- Database Name
+  - It will probably be a randomly generated username.
+- Database Username
+  - It will probably be the same as the database name.
+- Database Password
+  - It will be a randomly generated password.
+- Document root for public files
+  - It may be something like "/var/www/html/[sitename]"
+  - If you are using Reclaim Hosting is may be something like "/home/[domain]/public_html/[site]"
+- Document root for private files
+  - It may be something like "/var/www/html/[sitename]/sites/default/files/private"
+  - If you are using Reclaim Hosting is may be something like "/home/[domain]/public_html/[site]/sites/default/files/private"
 
 Click "Review migration".
 
