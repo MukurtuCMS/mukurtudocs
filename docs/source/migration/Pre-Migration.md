@@ -126,9 +126,26 @@ A confirmation message will be displayed.
 
 ### Text formats "Markdown" and "Display Suite code"
 
+- In Mukurtu 4 the "markdown" and "display suite code" formats are no longer supported in the default HTML field editor. Plain text, basic HTML, and Full HTML are still supported.
+- This setting will need to manually changed on all field that use one of these formats.
+- If you have used either format to achieve specific styling, it may be replicable with one of the HTML settings in Mukurtu 4. We recommend taking screenshots of the pages and copying the code you wrote so that it can be reviewed and re-implemented after migration.
+- This may affect any kind of site node, eg: basic pages, community pages, protocol pages, DH items (Traditional Knowledge, Cultural Narrative, Description fields), Collection (Description field).
+
+From the Text formats Markdown and Display Suite code report page, one-by-one, click on the title of the content to be edited.
+> TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREEENSHOT NEEDED
+
+For a page, click "page menu" and "edit".
+![pre-migration-text-01](../embeds/pre-migration-text-00.png)
+
+For content, click "item menu" and "edit".
+![pre-migration-text-01](../embeds/pre-migration-text-00a.png)
+
+Located the affected HTML field(s). They will list "Display suite code" or "markdown" in the dropdown menu below the text box.
 ![pre-migration-text-01](../embeds/pre-migration-text-01.png)
+
+Change the setting to "plain text", "filtered HTML", or "full html" as needed. Save the page or content (not shown).
 ![pre-migration-text-02](../embeds/pre-migration-text-02.png)
-![pre-migration-text-03](../embeds/pre-migration-text-03.png)
+
 
 ### Dictionary words with additional media
 
