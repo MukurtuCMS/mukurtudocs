@@ -2,7 +2,7 @@
 
 Before you can run the migration, you will need to collect database credentials from your Mukurtu 3 site. We recommend doing this in advance of migration and recoding this information somewhere accessible so you can copy and paste it into your new Mukurtu 4 site when prompted.
 
-The following database settings and credentials are required:
+You will need to preapre the following database settings and credentials.
 - Database type
 - Database host
 - Database name
@@ -10,6 +10,8 @@ The following database settings and credentials are required:
 - Database password
 - Document root for public files
 - Document root for private files
+
+> These are not the same credentials you use to log in to Reclaim or to the site itself.
 
 ## Finding database credentials for Reclaim Hosted sites
 
@@ -29,11 +31,20 @@ Select the "advanced" tab.
 ![migration-credentials-05](../embeds/migration-credentials-05.png)
 
 Record the following information. We recommend copying this into a local text document.
+- Location Files
+  - It will probably be something like "/home/[domain]/public_html/[site]"
+  - This will be used to fill in the document root information.
 - Database Type
+  - It will probably be "mysql".
 - Database Host
+  - It will probably be "localhost".
 - Database Name
+  - It will probably be a randomly generated username.
 - Database Username
-- Database Password (you can click on the "show password" button to expose this)
+  - It will probably be the same as the database name.
+- Database Password
+  - Click on the "show password" button to expose this.
+  - It will be a randomly generated password.
 
 ![migration-credentials-06](../embeds/migration-credentials-06.png)
 
