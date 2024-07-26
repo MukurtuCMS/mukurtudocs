@@ -11,7 +11,7 @@ You will need to preapre the following database settings and credentials.
 - Document root for public files
 - Document root for private files
 
-> These are not the same credentials you use to log in to Reclaim or to the site itself.
+> This assumes that you are migrating within the same hosting environment. If you are changing hosting providers or hosting environments please contact [support@mukurtu.org](mailto:support@mukurtu.org).
 
 ## Finding database credentials for Reclaim Hosted sites
 
@@ -45,6 +45,8 @@ Record the following information. We recommend copying this into a local text do
 - Database Password
   - Click on the "show password" button to expose this.
   - It will be a randomly generated password.
+ 
+> These are not the same credentials you use to log in to Reclaim or to the site itself.
 
 ![migration-credentials-06](../embeds/migration-credentials-06.png)
 
