@@ -12,7 +12,7 @@ Review the preparation steps and click "Continue" when ready.
 
 ![migrate-03](../embeds/migrate-03.png)
 
-Enter the Mukurtu 3 database credentials you identified earlier ([Preparing Migration Credentials](/docs/source/migration/MigrationCredentials)). 
+Enter the Mukurtu 3 database credentials you identified earlier (Preparing Migration Credentials). 
 
 > CONFIRM THIS Note that if your database type was "mySQL", you should select "MariaDB".
 
