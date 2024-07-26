@@ -27,6 +27,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    migration/MigrationOverview
    migration/MigrationPlanning
    migration/Pre-Migration
+   migration/MigrationCredentials
    migration/Migration
 
 .. toctree::
