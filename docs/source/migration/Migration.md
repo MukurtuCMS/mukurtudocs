@@ -28,10 +28,10 @@ Enter the Mukurtu 3 database credentials you identified earlier (Preparing Migra
   - It will be a randomly generated password.
 - Document root for public files
   - It may be something like "/var/www/html/[sitename]"
-  - If you are using Reclaim Hosting is may be something like "/home/[domain]/public_html/[site]"
+  - If you are using Reclaim Hosting it may be something like "/home/[domain]/public_html/[site]"
 - Document root for private files
   - It may be something like "/var/www/html/[sitename]/sites/default/files/private"
-  - If you are using Reclaim Hosting is may be something like "/home/[domain]/public_html/[site]/sites/default/files/private"
+  - If you are using Reclaim Hosting it may be something like "/home/[domain]/public_html/[site]/sites/default/files/private"
 
 Click "Review migration".
 
