@@ -66,7 +66,7 @@ Change to the directory with your Mukurtu settings.php file.
 
 For example, ```cd /var/www/html/[sitename]/sites/default/files```, ```cd public_html/[sitename]/sites/default```, or ```cd public_html/[sitename]/sites/default```.
 
-Then cat command to display the contents of the settings.php file.
+Then run the cat command to display the contents of the settings.php file.
 
 ```cat settings.php```
 
