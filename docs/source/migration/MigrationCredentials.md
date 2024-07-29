@@ -90,4 +90,4 @@ $databases = array (
 );
 ```
 
-Record thisinformation. We recommend copying this into a local text document for future reference.
+Record this information. We recommend copying this into a local text document for future reference.
