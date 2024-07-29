@@ -30,7 +30,7 @@ Locate your Mukurtu 3 site and click on the settings icon.
 Select the "advanced" tab.
 ![migration-credentials-05](../embeds/migration-credentials-05.png)
 
-Record the following information. We recommend copying this into a local text document.
+Record the following information. We recommend copying this into a local text document for future reference.
 - Location Files
   - It will probably be something like "/home/[domain]/public_html/[site]"
   - This will be used to fill in the document root information.
@@ -53,3 +53,46 @@ Record the following information. We recommend copying this into a local text do
 ## Finding database credentials for self hosted sites
 
 Contact your server/system administrator. They should be directly involved in this process. If they have any questions about this information or the migration process, please contact [support@mukurtu.org](mailto:support@mukurtu.org).
+
+## Using command line tools to find databse credentials
+
+> Use command line tools with caution. If you are not familiar with command line tools contact your server/system administrator or use other tools.
+
+Change to the directory with your Mukurtu settings.php file.
+- On most hosts it will be something like /var/www/html/[sitename]/sites/default/files
+- On Reclaim it will likely be either
+  - For a single domain or sub-folder install (eg: mydomain.com or mydomain.com/mukurtusite): /public_html/[sitename]/sites/default
+  - For a subdomain install (eg: mukurtusite.mydomain.com): /public_html/[sitename]/sites/default
+
+For example,
+```cd /var/www/html/[sitename]/sites/default/files```
+or
+```cd public_html/[sitename]/sites/default```
+or 
+```cd public_html/[sitename]/sites/default```
+
+Then cat command to display the contents of the settings.php file.
+
+```cat settings.php```
+
+Look for the database information. It will look something like this, and is *usually* the last information displayed.
+
+```
+$databases = array (
+  'default' =>
+  array (
+    'default' =>
+    array (
+      'database' => '[database_name]',
+      'username' => '[username],
+      'password' => '[secret_password],
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+```
+
+Record thisinformation. We recommend copying this into a local text document for future reference.
