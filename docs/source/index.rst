@@ -89,3 +89,8 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Local Contexts
 
+.. toctree::
+   :maxdepth: 1
+   :caption: FAQs
+
+   faqs/DatabasePrivacy
