@@ -161,7 +161,7 @@ From the Dictionary words with additional media report, click on the dictionary 
 From the "item menu" at the lef tof the page, select "edit". 
 
 
-If necessary, inspect the embedded media asset to find its name. Locate the media asset(s) in the media library, and drag and drop them into the new "additional media addets field".
+If necessary, inspect the embedded media asset to find its name. Locate the media asset(s) in the media library, and drag and drop them into the new "additional media addets" field.
 ![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-02.png)
 
 Ensure that the new field is showing the media assets, then delete the contents of the old "additional media" field.
@@ -185,12 +185,24 @@ Save the item (not shown).
 
    - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. There is a separate "author" field that automatically records the user responsible for uploading the media asset.
    - No action is required, you can leave this field populated and it will not affect the migration.
+   - If you do choose to resolve these messages follow the steps below. This can also be accomplished with regular batch update tools if preferred.
 
+From the Scald Authors report, click on the title of the media asset to be edited.
 ![pre-migration-scald-authors-01](../embeds/pre-migration-scald-authors-01.png)
+
+From the "page menu" select "edit".
 ![pre-migration-scald-authors-02](../embeds/pre-migration-scald-authors-02.png)
+
+Expand the "additional fields" section.
 ![pre-migration-scald-authors-03](../embeds/pre-migration-scald-authors-03.png)
+
+Locate the "authors" field and delete any terms. If you need to preserve these terms, consider entering them in the "people" or "contributor" field, as appropriate.
 ![pre-migration-scald-authors-04](../embeds/pre-migration-scald-authors-04.png)
+
+With the field empty, click "Finish".
 ![pre-migration-scald-authors-05](../embeds/pre-migration-scald-authors-05.png)
+
+A confirmation message will be displayed.
 ![pre-migration-scald-authors-06](../embeds/pre-migration-scald-authors-06.png)
 
 
