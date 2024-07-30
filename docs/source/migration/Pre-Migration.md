@@ -50,7 +50,7 @@ The report should run automatically, but you can click the "Run Pre-migration Re
 
 Each category will have a summary in the "status" field on the right, which includes a link to a more detailed report and actions.
 
-You MUST resolve "content nodes with no protocols" before resolving "media assets with no protocols". Otherwise ou can resolve these activities in whichever order your prefer.
+You should resolve "content nodes with no protocols" and "dictionary words with additional media" before resolving "media assets with no protocols" to avoid going through some steps multiple times (there is no harm in this, it just requires repeating steps). Otherwise ou can resolve these activities in whichever order your prefer.
 
 ### Content (nodes) with no assigned protocols
 
@@ -108,7 +108,7 @@ If you want to bulk process media, from the operations dropdown select one of th
   - On many sites this action may not be needed at all.
   - It allows you to manually set protocols on media assets and works the same as "Content (nodes) with no assigned protocols" - see above for instructions.
   - This will be used if there are media assets that are NOT included in any content. In this case you may instead prefer to delete unused media assets, or create a "to be reviewed" protocol to ensure that the migration can be complete and you can review them later.
-  - It can also be used in cases where you want a different protocol between content and media assets, but it is likely that you have already implemented that, since it's usualyl the case where media assets will have a stricter protocol than the content.
+  - It can also be used in cases where you want a different protocol between content and media assets, but it is likely that you have already implemented that, since it's usually the case where media assets will have a stricter protocol than the content.
 
 Some media assets may require manually assigning a protocol. Likely cases include:
 - Where a media asset has been used in multiple content (eg: in a DH item and set as a collection image)
@@ -148,14 +148,26 @@ Change the setting to "plain text", "filtered HTML", or "full html" as needed. S
 
 
 ### Dictionary words with additional media
+> NEED BETTER SCREENSHOTS
 
-   - In Mukurtu 4 there is both a thumbnail and an additional media field, and the additional media field works quite differently than in Mukurtu 3.
+   - In Mukurtu 4 the single HTML "additional media" field has been replaced by two new fields: thumbnail (image only) and media assets (all media types, the same as the digital heritage item media assets field. 
    - The contents of the additional media field will NOT be migrated.
-   - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or additional media field if you want them to be included in the migration.
+   - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or media assets field if you want them to be included in the migration.
+   - This can also be accomplished with regular batch update tools if preferred.
 
+From the Dictionary words with additional media report, click on the dictionary word to be edited.
 ![pre-migration-dictionary-media-01](../embeds/pre-migration-dictionary-media-01.png)
+
+From the "item menu" at the lef tof the page, select "edit". 
+
+
+If necessary, inspect the embedded media asset to find its name. Locate the media asset(s) in the media library, and drag and drop them into the new "additional media addets field".
 ![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-02.png)
+
+Ensure that the new field is showing the media assets, then delete the contents of the old "additional media" field.
 ![pre-migration-dictionary-media-03](../embeds/pre-migration-dictionary-media-03.png)
+
+Save the item (not shown).
 
 ### Dailymotion media assets (atoms)
 
