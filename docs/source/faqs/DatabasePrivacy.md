@@ -1,2 +1,2 @@
-## Can the system administrator view all content?
+# Can the system administrator view all content?
 
