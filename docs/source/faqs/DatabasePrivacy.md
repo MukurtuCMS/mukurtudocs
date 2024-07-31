@@ -6,7 +6,7 @@ Data, media, and content privacy is incredibly important. It is a complex subjec
 
 ## Access to content within the site
 
-For most site users and visitors access to content is fully controlled by the sites cultural protocols. Please refer to the documentation on cultural protocols and user roles for more detail.
+For all authenticated site users and visitors access to content is fully controlled by the sites cultural protocols. Please refer to the documentation on cultural protocols and user roles for more detail. The only exception to this are users with the role "drupal administrator".  This role is typically only given to one or two users per site and is a necessary role for at least one user to have on a respective Mukurtu site.
 
 Users with the "drupal administrator" role *do* bypasses cultural protocols when using the site and can access all site content, media, etc.
 - This is effectively unavoidable due to the nature of the technologies used.
