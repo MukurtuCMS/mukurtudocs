@@ -99,3 +99,4 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: Localization and Translation
 
    localization-translation/LocalizationTranslationOverview
+   localization-translation/RequiredModules
