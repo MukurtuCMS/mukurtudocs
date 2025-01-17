@@ -1,1 +1,1 @@
-#Overview of localization and translation in Mukurtu 4.
+# Overview of localization and translation in Mukurtu 4.
