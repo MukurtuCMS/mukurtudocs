@@ -69,7 +69,6 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: Roundtrip
 
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Dictionary
@@ -94,3 +93,9 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: FAQs
 
    faqs/DatabasePrivacy
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Localization and Translation
+
+   localization-translation/LocalizationTranslationOverview
