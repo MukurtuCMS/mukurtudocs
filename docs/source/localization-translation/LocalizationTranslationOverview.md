@@ -19,3 +19,20 @@
 - Our default font is [BC Sans](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans) as it has wide display coverage for many languages.
   - You can use a font of your choice if needed. **_DOCUMENTATION NEEDED_**
   - If you are wondering why text looks different now, Mukurtu CMS 3 used Helvetica Neue as the default font.
+
+
+## Localization steps
+
+Based on [https://www.specbee.com/blogs/multilingual-website-using-drupal-9](https://www.specbee.com/blogs/multilingual-website-using-drupal-9)
+1) Enable required multilingual modules
+2) Add a language (Language module)
+3) Update translations (Language module)
+4) Enable language switcher (blocks)
+5) Add translatons to content types and entities (Content language and translation)
+
+## Drupal configuration translation
+
+## Interface translation
+
+## Translating content 
+
