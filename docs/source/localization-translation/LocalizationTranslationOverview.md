@@ -15,7 +15,7 @@
 ## General language use
 
 - Mukurtu CMS fully supports Unicode character encoding, so if you can type your language, it should be accepted with no issue.
-  - Note that this may require use of a language-specific keyboard. If you have any questions, please contact [Mukurtu Support](support@mukurtu.org) and we can provide you with resources and references to support this.
+  - Note that this may require use of a language-specific keyboard. If you have any questions, please contact [Mukurtu Support](mailto:support@mukurtu.org) and we can provide you with resources and references to support this.
 - Our default font is [BC Sans](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans) as it has wide display coverage for many languages.
   - You can use a font of your choice if needed. **_DOCUMENTATION NEEDED_**
   - If you are wondering why text looks different now, Mukurtu CMS 3 used Helvetica Neue as the default font.
