@@ -18,7 +18,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: About Mukurtu CMS
 
-   01about-mukurtu/GettingStarted
+
 
 .. toctree::
    :maxdepth: 1
@@ -44,7 +44,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Communities, Cultural Protocols, and Categories
 
-   communities-protocols-categories/3Cs
+
 
 .. toctree::
    :maxdepth: 1
@@ -63,7 +63,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Collections
 
-   collections/CreatingCollections
+
 
 .. toctree::
    :maxdepth: 1
