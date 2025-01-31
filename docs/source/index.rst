@@ -29,11 +29,11 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    migration/02UpdateMukurtu3
    migration/03Pre-Migration
    migration/04InstallMukurtu4
-   migration/05Migration
+   migration/05CopyMediaDirectory
    migration/06RunMigrationTool
    migration/07VerifyMigration
    migration/08CompleteConfiguration
-   migration/09COnfirmSiteOperation
+   migration/09ConfirmSiteOperation
    migration/10DecommissionMukurtu3
 
 .. toctree::
