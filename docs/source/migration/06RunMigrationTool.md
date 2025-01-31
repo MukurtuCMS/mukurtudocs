@@ -1,4 +1,4 @@
-# Running the Mukurtu 3 to Mukurtu 4 migration
+# 6) Running the Mukurtu 3 to Mukurtu 4 migration
 
 > These steps assume that you are migrating within the same hosting environment. If you are changing hosting providers or hosting environments please contact [support@mukurtu.org](mailto:support@mukurtu.org).
 

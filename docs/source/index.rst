@@ -24,11 +24,17 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Migration from Mukurtu 3 to 4
 
-   migration/01MigrationOverview
-   migration/02MigrationPlanning
+   migration/00MigrationOverview
+   migration/01MigrationPlanning
+   migration/02UpdateMukurtu3
    migration/03Pre-Migration
-   migration/04MigrationCredentials
+   migration/04InstallMukurtu4
    migration/05Migration
+   migration/06RunMigrationTool
+   migration/07VerifyMigration
+   migration/08CompleteConfiguration
+   migration/09COnfirmSiteOperation
+   migration/10DecommissionMukurtu3
 
 .. toctree::
    :maxdepth: 1

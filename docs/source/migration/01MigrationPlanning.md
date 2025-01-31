@@ -1,4 +1,10 @@
-# Preparing Migration Credentials
+# 1) Migration Planning
+
+
+
+
+
+## Preparing Migration Credentials
 
 Before you can run the migration, you will need to collect database credentials from your Mukurtu 3 site. We recommend doing this in advance of migration and recoding this information somewhere accessible so you can copy and paste it into your new Mukurtu 4 site when prompted.
 
@@ -13,7 +19,7 @@ You will need to preapre the following database settings and credentials.
 
 > This assumes that you are migrating within the same hosting environment. If you are changing hosting providers or hosting environments please contact [support@mukurtu.org](mailto:support@mukurtu.org).
 
-## Finding database credentials for Reclaim Hosted sites
+### Finding database credentials for Reclaim Hosted sites
 
 Go to the Reclaim Client Portal ([https://portal.reclaimhosting.com/clientarea.php](https://portal.reclaimhosting.com/clientarea.php)) and login with your **Reclaim** account.
 ![migration-credentials-01](../embeds/migration-credentials-01.png)
@@ -50,11 +56,11 @@ Record the following information. We recommend copying this into a local text do
 
 ![migration-credentials-06](../embeds/migration-credentials-06.png)
 
-## Finding database credentials for self hosted sites
+### Finding database credentials for self hosted sites
 
 Contact your server/system administrator. They should be directly involved in this process. If they have any questions about this information or the migration process, please contact [support@mukurtu.org](mailto:support@mukurtu.org).
 
-## Using command line tools to find databse credentials
+### Using command line tools to find databse credentials
 
 > Use command line tools with caution. If you are not familiar with command line tools contact your server/system administrator or use other tools.
 

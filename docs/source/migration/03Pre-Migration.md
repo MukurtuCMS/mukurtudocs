@@ -1,4 +1,4 @@
-# Pre-Migration Activities
+# 3) Complete Mukurtu 3 Pre-Migration Activities
 
 We have built a pre-migration report that will identify all site content that needs to updated or modified before it can be migrated, and any content settings that will not be migrated. There are six categories included in the pre-migration report:
 
@@ -25,12 +25,6 @@ We have built a pre-migration report that will identify all site content that ne
 6) Scald authors field
    - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. We are not aware of any Mukurtu sites actively using this field.
    - No action is required.
-
-## Update Mukurtu 3
-
-You will need to update your Mukurtu 3 site to the most current release [version 3.0.7](https://github.com/MukurtuCMS/mukurtucms/releases/tag/3.0.7) to enable the new pre-migration tools. This process is the same as previous updates. 
-
-If you are hosting with Reclaim Hosting, see these instructions to update your site: [Updating a Reclaim Hosted Mukurtu CMS Site](https://mukurtu.org/support/updating-a-reclaim-hosted-mukurtu-cms-site/)
 
 ## Run the pre-migration report
 
