@@ -1,7 +1,5 @@
 # Required Modules for Localization and Translation
 
-Based on [https://www.specbee.com/blogs/multilingual-website-using-drupal-9](https://www.specbee.com/blogs/multilingual-website-using-drupal-9)
-
 The following modules should already be included in a stock Mukurtu 4 build, and can be enabled from the front end of the site.
 - Configuration Translation
 - Content Translation

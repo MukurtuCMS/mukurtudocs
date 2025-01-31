@@ -13,7 +13,7 @@ The migration tools have been developed to migrate all site content. This does N
 ## Migration steps
 
 1) Plan for the migration.
-2) Update Mukurtu 3 site to version XXXXX (for access to pre-migration tools).
+2) Update Mukurtu 3 site to version [3.0.7](https://github.com/MukurtuCMS/mukurtucms/releases/tag/3.0.7) for access to the pre-migration tools.
 3) Run the Mukurtu 3 pre-migration tools and resolve all outstanding issues.
 4) Install a new Mukurtu 4 site (do not begin using the site).
 5) Manually copy media directory.
