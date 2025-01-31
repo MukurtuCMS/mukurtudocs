@@ -18,17 +18,17 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: About Mukurtu CMS
 
-   about-mukurtu/GettingStarted
+   01about-mukurtu/GettingStarted
 
 .. toctree::
    :maxdepth: 1
    :caption: Migration from Mukurtu 3 to 4
 
-   migration/MigrationOverview
-   migration/MigrationPlanning
-   migration/Pre-Migration
-   migration/MigrationCredentials
-   migration/Migration
+   migration/01MigrationOverview
+   migration/02MigrationPlanning
+   migration/03Pre-Migration
+   migration/04MigrationCredentials
+   migration/05Migration
 
 .. toctree::
    :maxdepth: 1
