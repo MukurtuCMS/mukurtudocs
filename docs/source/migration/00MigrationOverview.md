@@ -12,7 +12,7 @@ The migration tools have been developed to migrate all site content. This does N
 
 ## Migration steps
 
-1) Migration planning
+1) [Migration planning](01MigrationPlanning.md)
 2) Update existing Mukurtu 3 site
 3) Complete Mukurtu 3 pre-migration activities
 4) Install new Mukurtu 4 site
