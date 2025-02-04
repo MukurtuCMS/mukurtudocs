@@ -2,7 +2,7 @@
 
 The pre-migration report will identify all site content that needs to be updated or modified before it can be migrated to Mukurtu 4. The report will also identify any content settings that will not be migrated. 
 
-> The pre-migration report only addresses stock Mukurtu content and features. For example, if you have created a new content type, or added a new field, it will not be reflected in this report. Please contact [support@mukurtu.org](mailto:support@mukurtu.org) with any questions.
+> The pre-migration report and migration tools only address stock Mukurtu content and features. For example, if you have created a new content type, or added a new field, it will not be reflected in this report. Please contact [support@mukurtu.org](mailto:support@mukurtu.org) with any questions.
 
 There are six categories included in the pre-migration report:
 
@@ -12,6 +12,8 @@ There are six categories included in the pre-migration report:
 4) Dictionary words with additional media
 5) Dailymotion media assets (atoms)
 6) Scald authors field
+
+---
 
 ## Run the pre-migration report and clear caches
 
