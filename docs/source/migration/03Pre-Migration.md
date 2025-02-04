@@ -227,14 +227,18 @@ A confirmation message will be displayed.
 
 ## Pre-migration work complete
 
-When you are done running all the pre-migration activities, the report will indicate that...
-- There are no nodes using these text formats.
+When you have completed the pre-migration activities, the report will indicate:
+- There are no nodes using unsupported text formats
 - All content has cultural protocols
 - All Scald Atoms have cultural protocols
 - No dictionary words have additional media
-- No Dailymotion atoms found
-- No Scald Authors terms found
+- No Dailymotion atoms are found
+- No Scald Authors terms are found (If you removed them. If you choose to leave them they will not be migrated, or affect the migration.)
+
+**If any of these are incomplete and you proceed with the migration, there will be corresponding data loss, and the migration as a whole may fail.**
 
 ![pre-migration-complete](../embeds/pre-migration-complete.png)
 
-> Please keep in mind that if you are continuing to work on the site before running the migration, you will need to ensure that new and update content will pass the pre-migration report (eg: when creating a new collection, ensure that it uses protocols). Shortly before beginning a migration, we STRONGLY recommend running a final pre-migration report and then placing the site in maintenance mode to prevent changes being made.
+> If you continue to work on the site after completing the migration activities, and before running the migration, please ensure that any new and updated content will pass the pre-migration report (eg: when creating a new collection, ensure that it uses protocols).
+> If you are not planning to work on the site between completing the migration activities and running the migration, consider placing the site in maintenance mode to prevent unintentional changes.
+> **In all cases, we STRONGLY recommend running a final pre-migration report before migration and then placing the site in maintenance mode to prevent changes being made.**
