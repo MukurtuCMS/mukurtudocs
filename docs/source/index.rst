@@ -6,7 +6,7 @@
 Welcome to the Mukurtu 4 User Manual
 ===========================================
 
-All Mukurtu support articles and training resources are posted to our main support site at `support.mukurtu.org <https://support.mukurut.org>`_. These are free.
+All Mukurtu support articles and training resources are posted to our main support site at `support.mukurtu.org <https://support.mukurtu.org>`_. These are free.
 
 We provide basic training and troubleshooting through web conference, phone call, or email. We can discuss your particular project needs, how best to configure your Mukurtu CMS site, provide demonstrations of all of Mukurtu CMS’ features and tools, and help with limited troubleshooting. We can help you configure and customize your Mukurtu CMS site within the options provided by the Mukurtu CMS web interface. We offer limited support for Mukurtu CMS sites more heavily customized at the Drupal or code level that deviate from the core Mukurtu code.
 
