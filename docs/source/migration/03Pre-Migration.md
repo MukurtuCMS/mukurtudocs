@@ -4,7 +4,7 @@ The pre-migration report will identify all site content that needs to be updated
 
 > The pre-migration report and migration tools only address stock Mukurtu content and features. For example, if you have created a new content type, or added a new field, it will not be reflected in this report. Please contact [support@mukurtu.org](mailto:support@mukurtu.org) with any questions.
 
-There are six categories included in the pre-migration report:
+There are six categories included in the pre-migration report. A more detailed description of the changes for each is provided in the relevant section below.
 
 1) Content (nodes) with no assigned protocols
 2) Media assets (atoms) with no assigned protocols
@@ -12,8 +12,6 @@ There are six categories included in the pre-migration report:
 4) Dictionary words with additional media
 5) Dailymotion media assets (atoms)
 6) Scald authors field
-
----
 
 ## Run the pre-migration report and clear caches
 
@@ -42,11 +40,13 @@ Each category will have a summary in the "status" field on the right, which incl
 
 You should resolve "content nodes with no protocols" and "dictionary words with additional media" before resolving "media assets with no protocols" to avoid going through some steps multiple times (there is no harm in this, it just requires repeating steps). Otherwise ou can resolve these activities in whichever order your prefer.
 
+Click the "Details" link in the "Status" column to view the report for each category.
+
 ### Content (nodes) with no assigned protocols
 
-   - In Mukurtu 4 cultural protocols are required for ALL content types.
-   - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not included for person records and word lists.
-   - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
+- In Mukurtu 3 protocols were optional for dictionary words and collections, and were not available for person records and word lists.
+- In Mukurtu 4 cultural protocols are required for ALL content types.
+- You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
 
 The content with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected content.
 
