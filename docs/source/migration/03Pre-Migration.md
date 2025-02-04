@@ -32,7 +32,7 @@ Hover over the home icon at the top left of the page, and click "Flush all cache
 
 ![pre-migration-cache-clear](../embeds/pre-migration-cache-clear.png)
 
-The report should automatically update as you complete the activities below. If the report summary does not automatically update, re-run report and clear caches as shown above.
+The report should automatically update as you complete the activities below. If the report summary does not automatically update, re-run the report and clear caches as shown above.
 
 ## Resolve pre-migration activities
 
