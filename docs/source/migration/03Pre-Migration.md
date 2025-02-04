@@ -15,7 +15,7 @@ There are six categories included in the pre-migration report. A more detailed d
 
 ## Run the pre-migration report and clear caches
 
-It is best for these actitivities to be run by a Drupal administrator to ensure all content is addressed. Depending on how you have assigned protocol membership, the account may need to be enrolled in additional protocols to apply protocols to content and media.
+It is best for these activities to be run by a Drupal administrator to ensure all content is addressed. Depending on how you have assigned protocol membership, the account may need to be enrolled in additional protocols to apply protocols to content and media.
 
 You can access the pre-migration report directly at /admin/reports/migration/summary (eg: https://mysite.com/admin/reports/migration/summary).
 
@@ -52,7 +52,7 @@ The content with missing cultural protocols report will allow you to filter, sel
 
 ![pre-migration-content-01](../embeds/pre-migration-content-01.png)
 
-If necessary, filter by content type. This is useful if for example you know that all dicitonary words will continue to be public or under a single protocol, but collections will require a per-collection decision.
+If necessary, filter by content type. This is useful if for example you know that all dictionary words will continue to be public or under a single protocol, but collections will require a per-collection decision.
 
 ![pre-migration-content-02](../embeds/pre-migration-content-02.png)
 
@@ -137,7 +137,7 @@ A confirmation message will be displayed.
 
 
 From the Text formats Markdown and Display Suite code report page, one-by-one, click on the title of the content to be edited.
-> TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREEENSHOT NEEDED
+> TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREENSHOT NEEDED
 
 For a page, click "page menu" and "edit".
 
@@ -233,12 +233,15 @@ When you have completed the pre-migration activities, the report will indicate:
 - All Scald Atoms have cultural protocols
 - No dictionary words have additional media
 - No Dailymotion atoms are found
-- No Scald Authors terms are found (If you removed them. If you choose to leave them they will not be migrated, or affect the migration.)
+- No Scald Authors terms are found, if you removed them. If you choose to leave them they will still be reported, but will not be migrated, or affect the migration.
 
 **If any of these are incomplete and you proceed with the migration, there will be corresponding data loss, and the migration as a whole may fail.**
 
 ![pre-migration-complete](../embeds/pre-migration-complete.png)
 
 > If you continue to work on the site after completing the migration activities, and before running the migration, please ensure that any new and updated content will pass the pre-migration report (eg: when creating a new collection, ensure that it uses protocols).
+> 
 > If you are not planning to work on the site between completing the migration activities and running the migration, consider placing the site in maintenance mode to prevent unintentional changes.
+> 
 > **In all cases, we STRONGLY recommend running a final pre-migration report before migration and then placing the site in maintenance mode to prevent changes being made.**
+
