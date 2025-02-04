@@ -1,34 +1,21 @@
-# 3) Complete Mukurtu 3 Pre-Migration Activities
+# 3) Mukurtu 3 Pre-Migration Activities
 
-We have built a pre-migration report that will identify all site content that needs to updated or modified before it can be migrated, and any content settings that will not be migrated. There are six categories included in the pre-migration report:
+The pre-migration report will identify all site content that needs to be updated or modified before it can be migrated to Mukurtu 4. The report will also identify any content settings that will not be migrated. 
 
-1) Text formats "Markdown" and "Display Suite code"
-   - These formats are not supported by default in Mukurtu 4 and will not be migrated.
-   - These formats are most commonly used to implement custom styling on basic pages, community pages, and in some DH items.
-   - You will need to manually change these fields to use a supported format.
-2) Content (nodes) with no assigned protocols
-   - In Mukurtu 4 cultural protocols are required for ALL content types.
-   - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not included for person records and word lists.
-   - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
-3) Media assets (atoms) with no assigned protocols
-   - In Mukurtu 4 cultural protocols are required for ALL media assets.
-   - In Mukurtu 3 protocols were optional, but recommended.
-   - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
+> The pre-migration report only addresses stock Mukurtu content and features. For example, if you have created a new content type, or added a new field, it will not be reflected in this report. Please contact [support@mukurtu.org](mailto:support@mukurtu.org) with any questions.
+
+There are six categories included in the pre-migration report:
+
+1) Content (nodes) with no assigned protocols
+2) Media assets (atoms) with no assigned protocols
+3) Text formats: "Markdown" and "Display Suite code"
 4) Dictionary words with additional media
-   - In Mukurtu 4 there is both a thumbnail and an additional media field, and the additional media field works quite differently than in Mukurtu 3.
-   - The contents of the additional media field will NOT be migrated.
-   - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or additional media field if you want them to be included in the migration.
 5) Dailymotion media assets (atoms)
-   - Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
-   - Dailymotion media assets will NOT be migrated.
-   - If you have any Dailymotion videos, you will need to move them to a different hosting platform and manually update the media assets and content that references them.
 6) Scald authors field
-   - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. We are not aware of any Mukurtu sites actively using this field.
-   - No action is required.
 
-## Run the pre-migration report
+## Run the pre-migration report and clear caches
 
-It is best for these actitivities to be run by a drupal administrator to ensure all content is addressed. The account *may* need to enrolled in additional protocols.
+It is best for these actitivities to be run by a Drupal administrator to ensure all content is addressed. Depending on how you have assigned protocol membership, the account may need to be enrolled in additional protocols to apply protocols to content and media.
 
 You can access the pre-migration report directly at /admin/reports/migration/summary (eg: https://mysite.com/admin/reports/migration/summary).
 
@@ -36,9 +23,16 @@ You can also access the report by following the "View Migration Preparation Summ
 
 ![pre-migration01](../embeds/pre-migration01.png)
 
-The report should run automatically, but you can click the "Run Pre-migration Report" button at any time to re-run the report. Your report will likely look something like this (but with more items identified).
+The report should run automatically, but you may need to click the "Run Pre-migration Report" button run the report. 
 
 ![pre-migration02](../embeds/pre-migration02.png)
+
+After running the pre-migration report, clear all site caches to ensure the report summary is updated. 
+Hover over the home icon at the top left of the page, and click "Flush all caches". The page will reload when complete, which may take some time depending on the size of the site and server configuration.
+
+![pre-migration-cache-clear](../embeds/pre-migration-cache-clear.png)
+
+The report should automatically update as you complete the activities below. If the report summary does not automatically update, re-run report and clear caches as shown above.
 
 ## Resolve pre-migration activities
 
@@ -134,9 +128,11 @@ A confirmation message will be displayed.
 ### Text formats "Markdown" and "Display Suite code"
 
 - In Mukurtu 4 the "markdown" and "display suite code" formats are no longer supported in the default HTML field editor. Plain text, basic HTML, and Full HTML are still supported.
+- These formats are most commonly used to implement custom styling on basic pages, community pages, and in some DH items.
 - This setting will need to manually changed on all field that use one of these formats.
 - If you have used either format to achieve specific styling, it may be replicable with one of the HTML settings in Mukurtu 4. We recommend taking screenshots of the pages and copying the code you wrote so that it can be reviewed and re-implemented after migration.
 - This may affect any kind of site node, eg: basic pages, community pages, protocol pages, DH items (Traditional Knowledge, Cultural Narrative, Description fields), Collection (Description field).
+
 
 From the Text formats Markdown and Display Suite code report page, one-by-one, click on the title of the content to be edited.
 > TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREEENSHOT NEEDED
@@ -161,7 +157,7 @@ Change the setting to "plain text", "filtered HTML", or "full html" as needed. S
 ### Dictionary words with additional media
 > NEED BETTER SCREENSHOTS
 
-   - In Mukurtu 4 the single HTML "additional media" field has been replaced by two new fields: thumbnail (image only) and media assets (all media types, the same as the digital heritage item media assets field. 
+   - In Mukurtu 4 the single HTML "additional media" field has been replaced by two new fields: thumbnail (image only) and media assets (all media types, the same as the digital heritage item media assets field.) 
    - The contents of the additional media field will NOT be migrated.
    - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or media assets field if you want them to be included in the migration.
    - This can also be accomplished with regular batch update tools if preferred.
@@ -184,6 +180,7 @@ Save the item (not shown).
 
 ### Dailymotion media assets (atoms)
 
+   - Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
    - Dailymotion media assets will NOT be migrated.
    - There is no automated process to resolve Dailymotion videos.
    - If you have any Dailymotion videos, you will need to...
@@ -191,6 +188,7 @@ Save the item (not shown).
      2) Create new media assets for the newly hosted videos.
      3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
      4) Delete the old Dailymotion media assets.
+
 
 > SCREENSHOTS NEEDED?
 

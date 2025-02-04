@@ -14,7 +14,7 @@ The migration tools have been developed to migrate all site content. This does N
 
 1) [Migration planning](01MigrationPlanning.md)
 2) [Update existing Mukurtu 3 site](02UpdateMukurtu3.md)
-3) [Complete Mukurtu 3 pre-migration activities](03Pre-Migration.md)
+3) [Complete the Mukurtu 3 pre-migration activities](03Pre-Migration.md)
 4) [Install new Mukurtu 4 site](04InstallMukurtu4.md)
 5) [Copy media directory](05CopyMediaDirectory.md)
 6) [Run the Mukurtu 4 migration tool](06RunMigrationTool.md)
