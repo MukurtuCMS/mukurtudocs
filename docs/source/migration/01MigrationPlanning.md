@@ -1,12 +1,27 @@
 # 1) Migration Planning
 
+There is a series of pre-migration planning activities you will want to undertake. Most of these are documentation oriented, though some may require additional research and testing.
 
+## Documenting customization
 
+If you have undertaken any customization of Mukurtu we strongly encourage you to document all your changes, whether cosmetic or functional. You will want to have a clear list of modifications so that you can identify what needs to be migrated, what needs to be re-created, etc.
 
+Please contact us at [support@mukurtu.org](mailto:support@mukurtu.org) so that we can discuss your options and needs for migration and re-implementation. There will not be a one-size-fits-all solution, but we plan to document the common customizations reported by users and make workflows, tools, and any other resources available to all users to support everyone's migration efforts.
 
-## Preparing Migration Credentials
+Customization includes, but may not be limited to:
+- Adding new fields to existing content types.
+- Disabling fields on existing content types.
+- Modfying the data structure of existing fields.
+- Creating new content types.
+- Installing additional modules.
+- Modifying any stock configuration (eg: user role permissions, search API).
+- Modifying certain look and feel modifications (eg: navigation menu, content view modes).
 
-Before you can run the migration, you will need to collect database credentials from your Mukurtu 3 site. We recommend doing this in advance of migration and recoding this information somewhere accessible so you can copy and paste it into your new Mukurtu 4 site when prompted.
+> Custom themes and other look and feel modifications wil NOT be migrated. Custom themes will need to be re-designed and re-implemented to use the Drupal 10+ Twig theming environment. This is beyond our capacity to support.
+
+## Preparing migration credentials
+
+You will need to collect database credentials from your Mukurtu 3 site for use in your eventual migration. We recommend reviewing this well in advance and recoding this information somewhere accessible so you can copy and paste it into your new Mukurtu 4 site when prompted.
 
 You will need to preapre the following database settings and credentials.
 - Database type
@@ -22,18 +37,23 @@ You will need to preapre the following database settings and credentials.
 ### Finding database credentials for Reclaim Hosted sites
 
 Go to the Reclaim Client Portal ([https://portal.reclaimhosting.com/clientarea.php](https://portal.reclaimhosting.com/clientarea.php)) and login with your **Reclaim** account.
+
 ![migration-credentials-01](../embeds/migration-credentials-01.png)
 
 Click on "cPanel". If you have multiple accounts, select the correct account from the dropdown menu.
+
 ![migration-credentials-02](../embeds/migration-credentials-02.png)
 
 Click on " My Apps".
+
 ![migration-credentials-03](../embeds/migration-credentials-03.png)
 
 Locate your Mukurtu 3 site and click on the settings icon.
+
 ![migration-credentials-04](../embeds/migration-credentials-04.png)
 
 Select the "advanced" tab.
+
 ![migration-credentials-05](../embeds/migration-credentials-05.png)
 
 Record the following information. We recommend copying this into a local text document for future reference.

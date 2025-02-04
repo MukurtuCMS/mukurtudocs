@@ -53,30 +53,38 @@ You should resolve "content nodes with no protocols" and "dictionary words with 
    - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
 
 The content with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected content.
+
 ![pre-migration-content-01](../embeds/pre-migration-content-01.png)
 
 If necessary, filter by content type. This is useful if for example you know that all dicitonary words will continue to be public or under a single protocol, but collections will require a per-collection decision.
+
 ![pre-migration-content-02](../embeds/pre-migration-content-02.png)
 
 If you need to review content one by one, you can click on the title to go to the content page.
 If you want to bulk process content, from the operations dropdown select "set cultural protocols for content". All content selected will use the same protocol(s), so you may need to go through this multiple times selecting different content for different protocol(s).
+
 ![pre-migration-content-03](../embeds/pre-migration-content-03.png)
 
 Select the content using the check boxes (you can select all content by using the checkbox in the top row).
 Click "execute".
+
 ![pre-migration-content-04](../embeds/pre-migration-content-04.png)
 
 Select the appropriate item sharing setting. If using one protocol, select "ALL" (the default setting when creating content).
+
 ![pre-migration-content-05](../embeds/pre-migration-content-05.png)
 
 Use the checkboxes to select the appropriate protocol(s).
 Click "next".
+
 ![pre-migration-content-06](../embeds/pre-migration-content-06.png)
 
 If the list looks correct, click "confirm".
+
 ![pre-migration-content-07](../embeds/pre-migration-content-07.png)
 
 A confirmation message will be displayed.
+
 ![pre-migration-content-08](../embeds/pre-migration-content-08.png)
 
 ### Media assets (atoms) with no assigned protocols
@@ -87,9 +95,11 @@ A confirmation message will be displayed.
 
 The Scald Atoms with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected media assets.
 If you have media assets that already had a protocol assigned during their creation, they will not be listed here.
+
 ![pre-migration-media-01](../embeds/pre-migration-media-01.png)
 
 If necessary, filter by media type.
+
 ![pre-migration-media-02](../embeds/pre-migration-media-02.png)
 
 If you need to review media assets one by one, you can click on the title to go to the media asset page.
@@ -109,12 +119,15 @@ Some media assets may require manually assigning a protocol. Likely cases includ
 
 Select the media assets using the check boxes (you can select all content by using the checkbox in the top row).
 Click "execute".
+
 ![pre-migration-media-03](../embeds/pre-migration-media-03.png)
 
 If the list looks correct, click "confirm".
+
 ![pre-migration-media-04](../embeds/pre-migration-media-04.png)
 
 A confirmation message will be displayed.
+
 ![pre-migration-media-05](../embeds/pre-migration-media-05.png)
 
 
@@ -129,15 +142,19 @@ From the Text formats Markdown and Display Suite code report page, one-by-one, c
 > TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREEENSHOT NEEDED
 
 For a page, click "page menu" and "edit".
+
 ![pre-migration-text-01](../embeds/pre-migration-text-00.png)
 
 For content, click "item menu" and "edit".
+
 ![pre-migration-text-01](../embeds/pre-migration-text-00a.png)
 
 Located the affected HTML field(s). They will list "Display suite code" or "markdown" in the dropdown menu below the text box.
+
 ![pre-migration-text-01](../embeds/pre-migration-text-01.png)
 
 Change the setting to "plain text", "filtered HTML", or "full html" as needed. Save the page or content (not shown).
+
 ![pre-migration-text-02](../embeds/pre-migration-text-02.png)
 
 
@@ -150,15 +167,17 @@ Change the setting to "plain text", "filtered HTML", or "full html" as needed. S
    - This can also be accomplished with regular batch update tools if preferred.
 
 From the Dictionary words with additional media report, click on the dictionary word to be edited.
+
 ![pre-migration-dictionary-media-01](../embeds/pre-migration-dictionary-media-01.png)
 
 From the "item menu" at the lef tof the page, select "edit". 
 
-
 If necessary, inspect the embedded media asset to find its name. Locate the media asset(s) in the media library, and drag and drop them into the new "additional media addets" field.
+
 ![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-02.png)
 
 Ensure that the new field is showing the media assets, then delete the contents of the old "additional media" field.
+
 ![pre-migration-dictionary-media-03](../embeds/pre-migration-dictionary-media-03.png)
 
 Save the item (not shown).
@@ -182,21 +201,27 @@ Save the item (not shown).
    - If you do choose to resolve these messages follow the steps below. This can also be accomplished with regular batch update tools if preferred.
 
 From the Scald Authors report, click on the title of the media asset to be edited.
+
 ![pre-migration-scald-authors-01](../embeds/pre-migration-scald-authors-01.png)
 
 From the "page menu" select "edit".
+
 ![pre-migration-scald-authors-02](../embeds/pre-migration-scald-authors-02.png)
 
 Expand the "additional fields" section.
+
 ![pre-migration-scald-authors-03](../embeds/pre-migration-scald-authors-03.png)
 
 Locate the "authors" field and delete any terms. If you need to preserve these terms, consider entering them in the "people" or "contributor" field, as appropriate.
+
 ![pre-migration-scald-authors-04](../embeds/pre-migration-scald-authors-04.png)
 
 With the field empty, click "Finish".
+
 ![pre-migration-scald-authors-05](../embeds/pre-migration-scald-authors-05.png)
 
 A confirmation message will be displayed.
+
 ![pre-migration-scald-authors-06](../embeds/pre-migration-scald-authors-06.png)
 
 
