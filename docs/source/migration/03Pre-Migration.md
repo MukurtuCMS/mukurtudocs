@@ -99,47 +99,85 @@ Finally a confirmation message will be displayed. You can then return to the pre
 
 ### Media assets (atoms) with no assigned protocols
 
-   - In Mukurtu 4 cultural protocols are required for ALL media assets.
-   - In Mukurtu 3 protocols were optional, but recommended.
-   - You will most likely be able to use the bulk processing tool to add protocols to all media assets without one, but some may require manual editing.
+Media assets represent the files uploaded to the site and stored in the media library (including remotely hosted video). These may be referred to as media, media assets, or atoms, and may be identified by a "SCALD ID" in addition to their filename.
 
-The Scald Atoms with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected media assets.
-If you have media assets that already had a protocol assigned during their creation, they will not be listed here.
+   - In Mukurtu 3 protocols were optional, but recommended.
+   - In Mukurtu 4 cultural protocols are required for ALL media assets.
+   - The bulk processing tool will add protocols to most media assets, but some may require manual editing.
+
+The Scald Atoms with missing cultural protocols report displays all media assets that do not have a protocol assigned.
+If you need to review a single media asset, you can click on its title to view. Opening media assets in a new tab is helpful so you don't have to navigate back to this page as often.
 
 ![pre-migration-media-01](../embeds/pre-migration-media-01.png)
 
-If necessary, filter by media type.
+You can filter by media type to limit the scope of the results. In most cases this isn't necessary.
 
 ![pre-migration-media-02](../embeds/pre-migration-media-02.png)
 
-If you need to review media assets one by one, you can click on the title to go to the media asset page.
-If you want to bulk process media, from the operations dropdown select one of the two actions:
-- "Duplicate cultural protocols from item"
-  - This is going to be the most commonly used action.
-  - It will look at the protocol(s) used on the content and apply those same protocols to the media assets.
-  - This will mostly apply in cases where for public content users didn't bother applying protocols to media assets, or where for non public content protocols were missed on media assets.
-- "Set cultural protocols for scald atoms".
-  - On many sites this action may not be needed at all.
-  - It allows you to manually set protocols on media assets and works the same as "Content (nodes) with no assigned protocols" - see above for instructions.
-  - This will be used if there are media assets that are NOT included in any content. In this case you may instead prefer to delete unused media assets, or create a "to be reviewed" protocol to ensure that the migration can be complete and you can review them later.
-  - It can also be used in cases where you want a different protocol between content and media assets, but it is likely that you have already implemented that, since it's usually the case where media assets will have a stricter protocol than the content.
+In the "Operations" dropdown, there are two choices that will allow you to assign protocols to media assets in bulk
 
-Some media assets may require manually assigning a protocol. Likely cases include:
-- Where a media asset has been used in multiple content (eg: in a DH item and set as a collection image)
+**Duplicate cultural protocols from item**
+- This selection will copy the all protocols and item sharing settings from a piece of content and apply them to the media assets found in that content.
+- Content and media assets using the same protocols is the most common arrangement across Mukurtu sites. 
+- The two most common scenarios are when users saved time by not applying protocols to media assets used in public content, or if protocols were accidentally missed on media assets used in private content.
 
-Select the media assets using the check boxes (you can select all content by using the checkbox in the top row).
-Click "execute".
+**Set cultural protocols for scald atoms**
+- This selection allows you to set the specific protocols and item sharing settings on media assets instead of copying them from related content.
+- On many sites this selection will not be needed.
+- Situations that cannot be resolved by the system and manual assignment of protocols is required:
+   - If a media assets is used in more than one piece of content (eg: in a digital heritage item and as the featured image for a collection). The system can't identify which piece of content takes precedence.
+   - If a media asset is NOT used in any content (eg: one media asset was uploaded multiple times, or content was deleted but the media asset wasn't). Depending on the situation, you may want to delete unused media assets before migration or apply a "to be reviewed" protocol to ensure the migration con be completed and the media assets reviewed later.
+
+Select the appropriate operation from the dropdown menu.
 
 ![pre-migration-media-03](../embeds/pre-migration-media-03.png)
 
-If the list looks correct, click "confirm".
+#### Duplicate cultural protocols from items
 
-![pre-migration-media-04](../embeds/pre-migration-media-04.png)
+Select the media assets to duplicate protocols from content using the check boxes. You can select all media assets by using the checkbox in the top row.
+Click "Execute".
 
-A confirmation message will be displayed.
+![pre-migration-media-03](../embeds/pre-migration-media-04.png)
 
-![pre-migration-media-05](../embeds/pre-migration-media-05.png)
+A confirmation message will be displayed. If relevant, media assets that could not automatically be assigned a protocol will be flagged.
 
+![pre-migration-media-03](../embeds/pre-migration-media-06.png)
+
+![pre-migration-media-03](../embeds/pre-migration-media-05.png)
+
+#### Set cultural protocols for scald atoms
+
+From the "Operations" dropdown, select "Set cultural protocols for content".
+
+![pre-migration-content-03](../embeds/pre-migration-content-03.png)
+
+Select the content to be assigned a protocol using the check boxes. You can select all content by using the checkbox in the top row.
+Please note that all content selected here will receive the SAME protocol(s) in the next step, so you will likely need to repeat this process multiple times for different groups of content.
+Click "execute".
+
+![pre-migration-content-04](../embeds/pre-migration-content-04.png)
+
+Select the appropriate item sharing setting - ANY or ALL. 
+If the content will use only one protocol, either setting will work, but the default setting when creating new content on the site is ALL, in case you want to align with that.
+If the content will use more than one protocol, choosing the correct setting is very important:
+- ANY means that  a user enrolled in ANY of the selected protocols can access the content. This is a more permissive setting.
+- ALL means that a user must be enrolled in ALL of the selected protocols to access the content. This is a more restrictive setting.
+
+![pre-migration-content-05](../embeds/pre-migration-content-05.png)
+
+Use the checkboxes to select the appropriate protocol(s).
+If there is a protocol you want to use and it is not listed here, ensure that the active user account is a protocol steward for the protocol in question.
+Click "next".
+
+![pre-migration-content-06](../embeds/pre-migration-content-06.png)
+
+A confirmation list will be displayed. If the list looks correct, click "confirm".
+
+![pre-migration-content-07](../embeds/pre-migration-content-07.png)
+
+Finally a confirmation message will be displayed. You can then return to the pre-migration report summary to repeat the above steps for other content if needed, or move on to additional steps.
+
+![pre-migration-content-08](../embeds/pre-migration-content-08.png)
 
 ### Text formats "Markdown" and "Display Suite code"
 
