@@ -44,48 +44,56 @@ Each category will have a summary in the "status" field on the right, which incl
 
 You should resolve the activities in the order displayed to avoid going through some steps multiple times. For example, a piece of content needs to have an assigned protocol before media used in that content can copy that protocol. 
 
-Click the "Details" link in the "Status" column to view the report for each category.
+In the "Status" column, click the "Details" link to view the report for each category.
 
 ![pre-migration01](../embeds/pre-migration-details.png)
 
 ### Content (nodes) with no assigned protocols
 
+Content refers to digital heritage items, dictionary words, collections, word lists, and person records.
+
 - In Mukurtu 3 protocols were optional for dictionary words and collections, and were not available for person records and word lists.
 - In Mukurtu 4 cultural protocols are required for ALL content types.
 - You will most likely be able to use the bulk processing tool to add protocols to all content without one, but some content may require manual editing.
 
-The content with missing cultural protocols report will allow you to filter, select, and apply bulk actions to update affected content.
+The content with missing cultural protocols report displays all content that does not have a protocol assigned.
+If you need to review a single piece of content, you can click on it's title to view. Opening content in a new tab is helpful so you don't have to navigate back to this page as often.
 
 ![pre-migration-content-01](../embeds/pre-migration-content-01.png)
 
-If necessary, filter by content type. This is useful if for example you know that all dictionary words will continue to be public or under a single protocol, but collections will require a per-collection decision.
+You can filter by content type. This is useful if, for example, you know that all dictionary words will continue to be public or all use the same private protocol, but other content will require more granular decisions. If relevant, select the content type and click "Apply".
 
 ![pre-migration-content-02](../embeds/pre-migration-content-02.png)
 
-If you need to review content one by one, you can click on the title to go to the content page.
-If you want to bulk process content, from the operations dropdown select "set cultural protocols for content". All content selected will use the same protocol(s), so you may need to go through this multiple times selecting different content for different protocol(s).
+From the "Operations" dropdown, select "Set cultural protocols for content".
 
 ![pre-migration-content-03](../embeds/pre-migration-content-03.png)
 
-Select the content using the check boxes (you can select all content by using the checkbox in the top row).
+Select the content to be assigned a protocol using the check boxes. You can select all content by using the checkbox in the top row.
+Please note that all content selected here will receive the SAME protocol(s) in the next step, so you will likely need to repeat this process multiple times for different groups of content.
 Click "execute".
 
 ![pre-migration-content-04](../embeds/pre-migration-content-04.png)
 
-Select the appropriate item sharing setting. If using one protocol, select "ALL" (the default setting when creating content).
+Select the appropriate item sharing setting - ANY or ALL. 
+If the content will use only one protocol, either setting will work, but the default setting when creating new content on the site is ALL, in case you want to align with that.
+If the content will use more than one protocol, choosing the correct setting is very important:
+- ANY means that  a user enrolled in ANY of the selected protocols can access the content. This is a more permissive setting.
+- ALL means that a user must be enrolled in ALL of the selected protocols to access the content. This is a more restrictive setting.
 
 ![pre-migration-content-05](../embeds/pre-migration-content-05.png)
 
 Use the checkboxes to select the appropriate protocol(s).
+If there is a protocol you want to use and it is not listed here, ensure that the active user account is a protocol steward for the protocol in question.
 Click "next".
 
 ![pre-migration-content-06](../embeds/pre-migration-content-06.png)
 
-If the list looks correct, click "confirm".
+A confirmation list will be displayed. If the list looks correct, click "confirm".
 
 ![pre-migration-content-07](../embeds/pre-migration-content-07.png)
 
-A confirmation message will be displayed.
+Finally a confirmation message will be displayed. You can then return to the pre-migration report summary to repeat the above steps for other content if needed, or move on to additional steps.
 
 ![pre-migration-content-08](../embeds/pre-migration-content-08.png)
 
