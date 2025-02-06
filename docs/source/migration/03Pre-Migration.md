@@ -21,11 +21,15 @@ You can access the pre-migration report directly at /admin/reports/migration/sum
 
 You can also access the report by following the "View Migration Preparation Summary" link on your dashboard.
 
-![pre-migration01](../embeds/pre-migration01.png)
+![pre-migration01](../embeds/pre-migration-dashboard.png)
+
+And you can access the report by following the "Reports" > "Pre-migration summary report" path from the Drupal administrator menu.
+
+![pre-migration01](../embeds/pre-migration-menu.png)
 
 The report should run automatically, but you may need to click the "Run Pre-migration Report" button run the report. 
 
-![pre-migration02](../embeds/pre-migration02.png)
+![pre-migration02](../embeds/pre-migration-run-report.png)
 
 After running the pre-migration report, clear all site caches to ensure the report summary is updated. 
 Hover over the home icon at the top left of the page, and click "Flush all caches". The page will reload when complete, which may take some time depending on the size of the site and server configuration.
@@ -38,9 +42,11 @@ The report should automatically update as you complete the activities below. If 
 
 Each category will have a summary in the "status" field on the right, which includes a link to a more detailed report and actions.
 
-You should resolve "content nodes with no protocols" and "dictionary words with additional media" before resolving "media assets with no protocols" to avoid going through some steps multiple times (there is no harm in this, it just requires repeating steps). Otherwise ou can resolve these activities in whichever order your prefer.
+You should resolve the activities in the order displayed to avoid going through some steps multiple times. For example, a piece of content needs to have an assigned protocol before media used in that content can copy that protocol. 
 
 Click the "Details" link in the "Status" column to view the report for each category.
+
+![pre-migration01](../embeds/pre-migration-details.png)
 
 ### Content (nodes) with no assigned protocols
 
