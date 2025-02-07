@@ -178,31 +178,31 @@ Finally a confirmation message will be displayed. You can then return to the pre
 
 ### Text formats "Markdown" and "Display Suite code"
 
-- In Mukurtu 4 the "markdown" and "display suite code" formats are no longer supported in the default HTML field editor. Plain text, basic HTML, and Full HTML are still supported.
-- These formats are most commonly used to implement custom styling on basic pages, community pages, and in some DH items.
-- This setting will need to manually changed on all field that use one of these formats.
+- In Mukurtu 3 a wide range of text formats were supported by the default HTML/rich text text editor: plain text, basic HTML, full HTML, markdown, and display suite code.
+- In Mukurtu 4 the markdown and display suite code formats are no longer supported by default. Plain text, basic HTML, and Full HTML are still supported.
+- Markdown and display suite code were most commonly used to implement custom styling in the description field of basic pages and community pages, and in additional fields of some content types (eg: description, cultural narrative, traditional knowledge, additional media).
 - If you have used either format to achieve specific styling, it may be replicable with one of the HTML settings in Mukurtu 4. We recommend taking screenshots of the pages and copying the code you wrote so that it can be reviewed and re-implemented after migration.
-- This may affect any kind of site node, eg: basic pages, community pages, protocol pages, DH items (Traditional Knowledge, Cultural Narrative, Description fields), Collection (Description field).
+- This setting will need to manually changed on all fields that use markdown or display suite code. The system cannot infer the correct setting to use, so there are no bulk tools available for this operation.
 
-
-From the Text formats Markdown and Display Suite code report page, one-by-one, click on the title of the content to be edited.
-> TEXT FORMAT SUMMARY NEEDS TO BE ADDED, SCREENSHOT NEEDED
-
-For a page, click "page menu" and "edit".
-
-![pre-migration-text-01](../embeds/pre-migration-text-00.png)
-
-For content, click "item menu" and "edit".
-
-![pre-migration-text-01](../embeds/pre-migration-text-00a.png)
-
-Located the affected HTML field(s). They will list "Display suite code" or "markdown" in the dropdown menu below the text box.
+From the Text formats Markdown and Display Suite code report page, click on the title of the page or content to be reviewed. Opening links in a new tab is helpful so you don't have to navigate back to this page as often.
 
 ![pre-migration-text-01](../embeds/pre-migration-text-01.png)
 
-Change the setting to "plain text", "filtered HTML", or "full html" as needed. Save the page or content (not shown).
+Depending on the type of page, in the top left, click either "page menu" or "item menu" and then "edit".
 
-![pre-migration-text-02](../embeds/pre-migration-text-02.png)
+![pre-migration-text-01](../embeds/pre-migration-text-02.png)
+
+Located the affected field(s). They will list "Display suite code" or "markdown" in the dropdown menu below the text box. 
+Some pages or content might have multiple affected fields - this would be most common with digital heritage items in the "Mukurtu Core" field group.
+
+![pre-migration-text-01](../embeds/pre-migration-text-03.png)
+
+Change the setting to "plain text", "filtered HTML", or "full html" as needed. If unsure, "filtered HTML" is a safe choice to make.
+Save the page or content (not shown).
+
+![pre-migration-text-02](../embeds/pre-migration-text-04.png)
+
+Repeat these steps for each result in the report.
 
 
 ### Dictionary words with additional media
