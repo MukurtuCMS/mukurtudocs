@@ -243,23 +243,23 @@ Repeat these steps for each result in the report.
 
 ### Dailymotion media assets (atoms)
 
-   - Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
-   - Dailymotion media assets will NOT be migrated.
-   - There is no automated process to resolve Dailymotion videos.
-   - If you have any Dailymotion videos, you will need to...
-     1) Move them to a different hosting platform (either Vimeo or Youtube) or upload them directly to the site (not recommended).
-     2) Create new media assets for the newly hosted videos.
-     3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
-     4) Delete the old Dailymotion media assets.
-
-
-> SCREENSHOTS NEEDED?
+- Support for Dailymotion has been dropped in Mukurtu 4. We are not aware of any Mukurtu sites actively using Dailymotion.
+- Dailymotion media assets will NOT be migrated.
+- There is no automated process to resolve Dailymotion videos.
+- If you have any Dailymotion videos, you will need to...
+   1) Move them to a different hosting platform (either Vimeo or Youtube) or upload them directly to the site (not recommended).
+   2) Create new media assets for the newly hosted videos.
+   3) Replace the Dailymotion media assets with the new media assets in any DH items or other content where they are used.
+   4) Delete the old Dailymotion media assets.
 
 ### Scald authors field
 
-   - The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. There is a separate "author" field that automatically records the user responsible for uploading the media asset.
-   - No action is required, you can leave this field populated and it will not affect the migration.
-   - If you do choose to resolve these messages follow the steps below. This can also be accomplished with regular batch update tools if preferred.
+- Mukurtu 3 included an optional "authors" field (along with many other optional fields) in the media asset metadata. 
+- Additional scald/media asset fields that are not being migrated: Identifier, Original DNG, Archival TIFF, Full-size JPEG, Created, Creator, Headline (Caption), Description, Geo Location, Location, Rights, Standard and Creative Commons Licensing, and Category.
+
+- The Scald "Authors" (scald_authors) field will not be migrated to Mukurtu 4. There is a separate "author" field that automatically records the user responsible for uploading the media asset.
+- No action is required, you can leave this field populated and it will not affect the migration.
+- If you do choose to resolve these messages follow the steps below. This can also be accomplished with regular batch update tools if preferred.
 
 From the Scald Authors report, click on the title of the media asset to be edited.
 
@@ -270,21 +270,13 @@ From the "page menu" select "edit".
 ![pre-migration-scald-authors-02](../embeds/pre-migration-scald-authors-02.png)
 
 Expand the "additional fields" section.
+Locate the "authors" field and delete any terms. If you need to preserve these terms, consider entering them in the "people" or "contributor" field, as appropriate.
+With the field empty, click "Finish".
+A confirmation message will be displayed (not shown).
 
 ![pre-migration-scald-authors-03](../embeds/pre-migration-scald-authors-03.png)
 
-Locate the "authors" field and delete any terms. If you need to preserve these terms, consider entering them in the "people" or "contributor" field, as appropriate.
-
-![pre-migration-scald-authors-04](../embeds/pre-migration-scald-authors-04.png)
-
-With the field empty, click "Finish".
-
-![pre-migration-scald-authors-05](../embeds/pre-migration-scald-authors-05.png)
-
-A confirmation message will be displayed.
-
-![pre-migration-scald-authors-06](../embeds/pre-migration-scald-authors-06.png)
-
+Repeat these steps for each result in the report.
 
 ## Pre-migration work complete
 
