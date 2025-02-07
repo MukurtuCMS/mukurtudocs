@@ -147,37 +147,34 @@ A confirmation message will be displayed. If relevant, media assets that could n
 
 #### Set cultural protocols for scald atoms
 
-From the "Operations" dropdown, select "Set cultural protocols for content".
-
-![pre-migration-content-03](../embeds/pre-migration-content-03.png)
-
-Select the content to be assigned a protocol using the check boxes. You can select all content by using the checkbox in the top row.
-Please note that all content selected here will receive the SAME protocol(s) in the next step, so you will likely need to repeat this process multiple times for different groups of content.
+From the "Operations" dropdown, select "Set cultural protocols for Scald Atoms".
+Select the media assets to be assigned a protocol using the check boxes. You can select all media assets by using the checkbox in the top row.
+Please note that all media assets selected here will receive the SAME protocol(s) in the next step, so you will likely need to repeat this process multiple times for different groups of media assets.
 Click "execute".
 
-![pre-migration-content-04](../embeds/pre-migration-content-04.png)
+![pre-migration-content-03](../embeds/pre-migration-media-07.png)
 
-Select the appropriate item sharing setting - ANY or ALL. 
-If the content will use only one protocol, either setting will work, but the default setting when creating new content on the site is ALL, in case you want to align with that.
-If the content will use more than one protocol, choosing the correct setting is very important:
-- ANY means that  a user enrolled in ANY of the selected protocols can access the content. This is a more permissive setting.
-- ALL means that a user must be enrolled in ALL of the selected protocols to access the content. This is a more restrictive setting.
+Select the appropriate sharing setting - ANY or ALL. 
+If the media assets will use only one protocol, either setting will work, but the default setting when uploading new media assets the site is ALL, in case you want to align with that.
+If the media assets will use more than one protocol, choosing the correct setting is very important:
+- ANY means that  a user enrolled in ANY of the selected protocols can access the media assets. This is a more permissive setting.
+- ALL means that a user must be enrolled in ALL of the selected protocols to access the media assets. This is a more restrictive setting.
 
-![pre-migration-content-05](../embeds/pre-migration-content-05.png)
+![pre-migration-content-05](../embeds/pre-migration-media-08.png)
 
 Use the checkboxes to select the appropriate protocol(s).
 If there is a protocol you want to use and it is not listed here, ensure that the active user account is a protocol steward for the protocol in question.
 Click "next".
 
-![pre-migration-content-06](../embeds/pre-migration-content-06.png)
+![pre-migration-content-06](../embeds/pre-migration-media-09.png)
 
 A confirmation list will be displayed. If the list looks correct, click "confirm".
 
-![pre-migration-content-07](../embeds/pre-migration-content-07.png)
+![pre-migration-content-07](../embeds/pre-migration-media-10.png)
 
-Finally a confirmation message will be displayed. You can then return to the pre-migration report summary to repeat the above steps for other content if needed, or move on to additional steps.
+Finally a confirmation message will be displayed. You can then return to the pre-migration report summary to repeat the above steps for other media assets if needed, or move on to additional steps.
 
-![pre-migration-content-08](../embeds/pre-migration-content-08.png)
+![pre-migration-content-08](../embeds/pre-migration-media-11.png)
 
 ### Text formats "Markdown" and "Display Suite code"
 
