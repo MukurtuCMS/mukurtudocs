@@ -10,6 +10,10 @@ The migration tools have been developed to migrate all site content. This does N
 > - Added, removed, or modified any Mukurtu features or tools.
 > - Added, removed, or modified any Drupal 7 modules.
 
+## Migration checklist
+
+> To be added
+
 ## Migration steps
 
 1) [Migration planning](01MigrationPlanning.md)
@@ -24,3 +28,4 @@ The migration tools have been developed to migrate all site content. This does N
 10) [Decommission the Mukurtu 3 site](10DecommissionMukurtu3.md)
 
 If you have any questions, please contact us at [support@mukurtu.org](mailto:support@mukurtu.org?subject=Mukurtu%204%20migration%20support).
+
