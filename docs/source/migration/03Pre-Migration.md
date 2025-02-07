@@ -178,7 +178,7 @@ Finally a confirmation message will be displayed. You can then return to the pre
 
 ### Text formats "Markdown" and "Display Suite code"
 
-- In Mukurtu 3 a wide range of text formats were supported by the default HTML/rich text text editor: plain text, basic HTML, full HTML, markdown, and display suite code.
+- Mukurtu 3 supported a wide range of text formats in the default HTML/rich text text editor: plain text, basic HTML, full HTML, markdown, and display suite code.
 - In Mukurtu 4 the markdown and display suite code formats are no longer supported by default. Plain text, basic HTML, and Full HTML are still supported.
 - Markdown and display suite code were most commonly used to implement custom styling in the description field of basic pages and community pages, and in additional fields of some content types (eg: description, cultural narrative, traditional knowledge, additional media).
 - If you have used either format to achieve specific styling, it may be replicable with one of the HTML settings in Mukurtu 4. We recommend taking screenshots of the pages and copying the code you wrote so that it can be reviewed and re-implemented after migration.
@@ -198,36 +198,48 @@ Some pages or content might have multiple affected fields - this would be most c
 ![pre-migration-text-01](../embeds/pre-migration-text-03.png)
 
 Change the setting to "plain text", "filtered HTML", or "full html" as needed. If unsure, "filtered HTML" is a safe choice to make.
-Save the page or content (not shown).
 
 ![pre-migration-text-02](../embeds/pre-migration-text-04.png)
+
+Save the page or content (not shown).
 
 Repeat these steps for each result in the report.
 
 
 ### Dictionary words with additional media
-> NEED BETTER SCREENSHOTS
 
-   - In Mukurtu 4 the single HTML "additional media" field has been replaced by two new fields: thumbnail (image only) and media assets (all media types, the same as the digital heritage item media assets field.) 
-   - The contents of the additional media field will NOT be migrated.
-   - You will need to manually move any media assets used in the Mukurtu 3 additional media field into the new thumbnail or media assets field if you want them to be included in the migration.
-   - This can also be accomplished with regular batch update tools if preferred.
+- Mukurtu 3 had a single "additional media" field that was a basic HTML field.
+- In Mukurtu 4 the "additional media" field has been replaced by two new fields: 
+   - "Media assets", which accepts all media types and is intended for supplementary media like a video recording or images.
+   - "Thumbnail", which only accepts images. Those images will be displayed as a thumbnail in search results.
+- The contents of the additional media field will NOT be migrated. If no action 
+- The system can't infer how to move these media assets, so you will need to manually move any media assets used in the Mukurtu 3 "additional media" field into the new thumbnail or media assets field if you want them to be included in the migration.
+- This can also be accomplished with regular batch update tools if preferred.
 
 From the Dictionary words with additional media report, click on the dictionary word to be edited.
 
 ![pre-migration-dictionary-media-01](../embeds/pre-migration-dictionary-media-01.png)
 
-From the "item menu" at the lef tof the page, select "edit". 
-
-If necessary, inspect the embedded media asset to find its name. Locate the media asset(s) in the media library, and drag and drop them into the new "additional media addets" field.
+From the "item menu" at the top left of the page, select "edit". 
 
 ![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-02.png)
 
+If necessary, inspect the embedded media asset to find its name. 
+Expand the media library on the right sidebar.
+
+![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-03.png)
+
+Locate the media asset(s) in the media library, and drag and drop them into the new "additional media assets"  or "thumbnail image" field.
+
+![pre-migration-dictionary-media-02](../embeds/pre-migration-dictionary-media-04.png)
+
 Ensure that the new field is showing the media assets, then delete the contents of the old "additional media" field.
 
-![pre-migration-dictionary-media-03](../embeds/pre-migration-dictionary-media-03.png)
+![pre-migration-dictionary-media-03](../embeds/pre-migration-dictionary-media-05.png)
 
 Save the item (not shown).
+
+Repeat these steps for each result in the report.
 
 ### Dailymotion media assets (atoms)
 
