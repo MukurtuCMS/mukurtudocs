@@ -212,8 +212,7 @@ Repeat these steps for each result in the report.
 - In Mukurtu 4 the "additional media" field has been replaced by two new fields: 
    - "Media assets", which accepts all media types and is intended for supplementary media like a video recording or images.
    - "Thumbnail", which only accepts images. Those images will be displayed as a thumbnail in search results.
-- The contents of the additional media field will NOT be migrated. If no action 
-- The system can't infer how to move these media assets, so you will need to manually move any media assets used in the Mukurtu 3 "additional media" field into the new thumbnail or media assets field if you want them to be included in the migration.
+- The system can't infer how to move these media assets, so you will need to manually move any media assets used in the Mukurtu 3 "additional media" field into the new thumbnail or media assets field if you want them to be included in the migration. The contents of the additional media field will NOT be migrated. If no action is taken, this data WILL be lost.
 - This can also be accomplished with regular batch update tools if preferred.
 
 From the Dictionary words with additional media report, click on the dictionary word to be edited.
