@@ -19,7 +19,21 @@ If you notice something that could be improved, we would love your help.
 
 If you are cloning the user manuals to your local computer and creating a branch, you may wish to [install and use MkDocs](https://www.mkdocs.org/#installation) to preview your changes and ensure the formatting and syntax are correct.
 
-### Formatting 
+## Publishing to Read the Docs
+- Edit in GitHub (browser)
+- Use GitHub Desktop
+- Use Visual Studio Code
+
+**In Github Desktop**
+1. Fetch origin (to work on the most up to date version)
+2. Create a new branch
+3. Open in VS Code
+4. Make your changes
+5. When ready, publish branch
+6. When ready, commit changes to branch
+
+
+## Formatting 
 
 **Topics**
 
