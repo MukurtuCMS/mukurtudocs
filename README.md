@@ -29,8 +29,13 @@ If you are cloning the user manuals to your local computer and creating a branch
 2. Create a new branch
 3. Open in VS Code
 4. Make your changes
-5. When ready, publish branch
+5. When ready, publish branch (may be superseded by committing)
 6. When ready, commit changes to branch
+7. Push origin
+8. When ready, create pull request, you will be taken to browser
+   - If more work 
+9. Assign a reviewer if needed
+10. Either create PR for review or draft PR if more work is needed
 
 
 ## Formatting 
