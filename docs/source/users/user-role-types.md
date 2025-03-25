@@ -1,0 +1,1 @@
+An explanation of the different types of user roles
