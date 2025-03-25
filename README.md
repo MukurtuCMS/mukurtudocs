@@ -81,3 +81,6 @@ URLs, file paths, bits of code, and metadata fields are highlighted using `code 
 ## Rights
 
 This documentation is [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+
+
+## adding a new section
