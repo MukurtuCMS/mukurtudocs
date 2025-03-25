@@ -70,6 +70,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: User Management
 
    users/users-intro
+   users/creating-account
 
 .. toctree::
    :maxdepth: 1
