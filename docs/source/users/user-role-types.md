@@ -1,1 +1,3 @@
-An explanation of the different types of user roles
+# User role types
+
+These are the different types of user roles.
