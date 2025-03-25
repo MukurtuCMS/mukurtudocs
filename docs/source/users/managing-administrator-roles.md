@@ -19,4 +19,4 @@ Mukurtu administrators have the ability to
 - View person records with open cultural protocols
 - View media assets with open cultural protocols
 
-## Other roles are addressed in the Community Roles and Cultural Protocol Roles tutorials.
+## Other roles are addressed in the Community Roles and Cultural Protocol Roles tutorials. 
