@@ -71,6 +71,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
 
    users/users-intro
    users/creating-account
+   users/managing-administrator-roles
 
 .. toctree::
    :maxdepth: 1
