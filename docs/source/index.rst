@@ -60,6 +60,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
 
    media/VimeoPrivacySettings
    media/YoutubePrivacySettings
+   media/upload-media-assets
 
 .. toctree::
    :maxdepth: 1
