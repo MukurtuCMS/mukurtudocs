@@ -4,6 +4,8 @@ Here is a tutorial about how to upload media assets.
 
 ## Audio files
 
+## SoundCloud
+
 ## Documents
 
 ## External Embeds
