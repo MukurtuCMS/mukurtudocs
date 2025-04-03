@@ -52,4 +52,4 @@ Insert a URL for a Vimeo or YouTube video in the **Video URL** field.
  
 ## Uploaded Video 
 Supported video file types: 
-- MP4, WEBM, OGV 
+- MP4, WEBM, OGV
