@@ -27,16 +27,18 @@ Supported document file types:
 
 ## External Embeds 
 Insert an embed code from a remote website in the **External Embed** field.  
->Note that externally hosted resources cannot be protected by cultural protocols. 
-
 >A Thumbnail is required for External Embeds. 
+
+>Note that externally hosted resources cannot be protected by cultural protocols. 
 
 ## Images 
 Supported image file types: 
-- JPEG, JPG, PNG, GIF, DNG, TIFF (DNG AND TIFF preservation format files are not recommended) 
+- JPEG, JPG, PNG, GIF, DNG, TIFF 
+- - DNG AND TIFF preservation format files are not recommended
 
 ## Remote Video 
-Mukurtu supports remotely hosted videos from Vimeo and YouTube. Insert a URL for a Vimeo or YouTube video in the **Video URL** field.  
+Mukurtu supports remotely hosted videos from Vimeo and YouTube. 
+Insert a URL for a Vimeo or YouTube video in the **Video URL** field.  
  
 ## Uploaded Video 
 Supported video file types: 
