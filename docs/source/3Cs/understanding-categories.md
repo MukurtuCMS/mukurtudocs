@@ -10,4 +10,4 @@ If the categories are too broad they won’t help users narrow down their search
 
 Most sites have between 10-15 categories. If more granular terms are needed, other taxonomies such as Keywords can be applied. 
 
-All communities on the site share the same set of categories.  
+All communities on the site share the same set of categories.

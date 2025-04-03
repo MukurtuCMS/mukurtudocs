@@ -24,4 +24,4 @@ Is relations changing?
 
 - Select **Manage Categories**. 
 - Select the **Edit** button in the row you want to make changes to. 
-- Edit your **Category Name**, **Description**, or **Thumbnail Image**, then select **Save**. 
+- Edit your **Category Name**, **Description**, or **Thumbnail Image**, then select **Save**.
