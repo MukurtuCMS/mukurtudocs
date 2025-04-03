@@ -3,18 +3,18 @@
 Mukurtu 4 comes preloaded with a Default category. This might change.
 
 ## To create a new category, navigate to your Dashboard.  
-![alt text](../embeds/categories1.png)
+![creating categories 1](../embeds/categories1.png)
 - Select “Manage Categories”. 
-![alt text](../embeds/categories2.png)
+![creating categories 2](../embeds/categories2.png)
 - Select “Add a New Category” 
- ![alt text](../embeds/categories3.png)
+ ![creating categories 3](../embeds/categories3.png)
 - Type the name of your category in the “Category Name” field.  
 - Type any descriptive information in the “Description” field. This is a rich text field that can support text, links, media items, and other formats. 
-![alt text](../embeds/categories4.png)
+![creating categories 4](../embeds/categories4.png)
 - Apply a thumbnail image to your category. The thumbnail image appears on your front page and can help further clarify your category for users. 
 - Select “Add media”. Select “Browse” to upload a file or scroll down to select images that have already been uploaded.  
 - Allowed file types are .png, .gif, .jpg, or .jpeg. 
-![alt text](../embeds/categories5.png)
+![creating categories 5](../embeds/categories5.png)
 - Select “Insert selected” to apply the image to your category as a thumbnail. 
 - Select the checkbox by “Published” to publish your category or leave unselected to save your category as a draft. 
 
