@@ -16,5 +16,3 @@ Make sure to mention that these need a thumbnail.
 ## Remote Video
 
 ## Uploaded Video
-
-## Testing to see if this commits.
