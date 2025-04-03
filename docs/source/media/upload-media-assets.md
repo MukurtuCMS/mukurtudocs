@@ -15,9 +15,18 @@ Select the type of media you want to add.
 - Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
 > Thumbnails are a required field for External Embeds 
 
+## These additional fields are used across all media types 
+- Identifier 
+- Contributor 
+- People 
+- Media Tags 
+- Thumbnail* 
+
 ## Audio Files 
 Supported audio file types: 
 - MP3, WAV, OGG, M4A 
+### Additional Audio Metadata Fields 
+- Transcription 
 
 ## SoundCloud 
 Insert a URL for a SoundCloud asset in the **SoundCloud URL** field.  
