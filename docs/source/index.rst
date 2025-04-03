@@ -46,6 +46,9 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Communities, Cultural Protocols, and Categories
 
+   communities-protocols-categories/understanding-categories
+   communities-protocols-categories/creating-categories
+
 
 
 .. toctree::
