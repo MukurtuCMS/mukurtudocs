@@ -17,7 +17,6 @@ Select the type of media you want to add.
 
 ## These additional fields are used across all media types 
 - Identifier 
-- Contributor 
 - People 
 - Media Tags 
 - Thumbnail* 
@@ -26,6 +25,7 @@ Select the type of media you want to add.
 Supported audio file types: 
 - MP3, WAV, OGG, M4A 
 ### Additional Audio Metadata Fields 
+- Contributor
 - Transcription 
 
 ## SoundCloud 
