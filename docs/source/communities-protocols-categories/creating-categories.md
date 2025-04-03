@@ -18,7 +18,7 @@ Mukurtu 4 comes preloaded with a Default category. This might change.
 - Select **Insert selected** to apply the image to your category as a thumbnail. 
 - Select the checkbox by “Published” to publish your category or leave unselected to save your category as a draft. 
 
-    Is relations changing?
+Is relations changing?
 
 ## To edit your category, navigate to your Dashboard.  
 
