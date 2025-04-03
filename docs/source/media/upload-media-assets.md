@@ -34,7 +34,7 @@ Insert an embed code from a remote website in the **External Embed** field.
 ## Images 
 Supported image file types: 
 - JPEG, JPG, PNG, GIF, DNG, TIFF 
- - DNG AND TIFF preservation format files are not recommended
+    - DNG and TIFF preservation format files are not recommended
 
 ## Remote Video 
 Mukurtu supports remotely hosted videos from Vimeo and YouTube. 
