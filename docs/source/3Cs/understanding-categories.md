@@ -1,4 +1,4 @@
-# Understanding Categories - Mukurtu CMS 4.0
+# Understanding Categories
 
 - User Role: Mukurtu Administrators
 

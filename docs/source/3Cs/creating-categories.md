@@ -1,4 +1,4 @@
-# Creating and Editing Categories - Mukurtu CMS 4.0 
+# Creating and Editing Categories
 
 Mukurtu 4 comes preloaded with a Default category. This might change.
 
