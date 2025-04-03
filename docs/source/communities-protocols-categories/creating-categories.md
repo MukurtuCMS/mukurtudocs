@@ -13,7 +13,7 @@ Mukurtu 4 comes preloaded with a Default category. This might change.
 ![image](../embeds/categories4.PNG)
 - Apply a thumbnail image to your category. The thumbnail image appears on your front page and can help further clarify your category for users. 
 - Select “Add media”. Select “Browse” to upload a file or scroll down to select images that have already been uploaded.  
-- - Allowed file types are .png, .gif, .jpg, or .jpeg. 
+- Allowed file types are .png, .gif, .jpg, or .jpeg. 
 ![image](../embeds/categories5.PNG)
 - Select “Insert selected” to apply the image to your category as a thumbnail. 
 - Select the checkbox by “Published” to publish your category or leave unselected to save your category as a draft. 
