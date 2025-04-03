@@ -1,4 +1,5 @@
 # Creating Media Assets 
+User Roles: Protocol Steward, Contributor, Community Record Steward, Curator, Language Steward, Language Contributor 
 
 From your Dashboard, select **Add Media**. 
 
