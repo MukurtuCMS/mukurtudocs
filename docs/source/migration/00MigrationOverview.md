@@ -1,3 +1,5 @@
+:tags: migration
+
 # Migration Overview
 
 Migrating from a current Mukurtu 3 site to a new Mukurtu 4 site will be straightforward for most users. We have developed a set of migration tools that automate most of the migration steps.
