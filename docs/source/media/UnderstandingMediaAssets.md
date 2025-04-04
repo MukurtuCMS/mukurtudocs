@@ -1,0 +1,14 @@
+# Understanding Media Assets
+User Roles: Protocol Steward, Contributor, Community Record Steward, Curator, Language Steward, Language Contributor 
+
+Mukurtu is designed to be used as part of an access and preservation ecosystem. In general, Mukurtu's platform makes it easy for users to provide access to digital materials but is not intended for preservation. Mukurtu supports several different types of media assets. These include:
+
+- Audio 
+- SoundCloud 
+- Documents 
+- External Embeds 
+- Images 
+- Remote Video 
+- Uploaded or Local Video 
+
+You can apply media assets to Content Items and Taxonomic Records, such as Digital Heritage Items, Dictionary words, Person and Place records, as well as many other facets of Mukurtu. Most items do not have a limit on how many media assets creators can apply.

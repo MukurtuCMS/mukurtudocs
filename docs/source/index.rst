@@ -57,11 +57,13 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
 .. toctree::
    :maxdepth: 1
    :caption: Managing Media
-
-   media/upload-media-assets
-   media/SoundCloudPrivacySettings
+   
    media/VimeoPrivacySettings
    media/YoutubePrivacySettings
+   media/upload-media-assets
+   media/SoundCloudPrivacySettings
+   media/UnderstandingMediaAssets
+   media/MediaAssetMetadata
 
 .. toctree::
    :maxdepth: 1
