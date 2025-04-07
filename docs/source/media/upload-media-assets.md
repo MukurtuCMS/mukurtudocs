@@ -1,56 +1,95 @@
 # Creating Media Assets 
-User Roles: Protocol Steward, Contributor, Community Record Steward, Curator, Language Steward, Language Contributor 
+User Roles: Protocol Steward, Contributor, Community Record Steward, Curator, Language Steward, Language Contributor 
 
-From your Dashboard, select **Add Media**. 
+There are two ways to create a media asset: from your Dashboard or from Content Items. 
+- From your Dashboard, select **Add Media**. 
+	- Select the type of media you want to add and enter metadata as described below.  
+- To create a media asset in a Content item, select Add Media under Media Assets in the Mukurtu Essentials tab. 
+	- Select the type of media you want to add. 
+	- Select Browse for uploading Audio, Document, Image, or Video files.
+	- Insert the URL or embed code for Remote Video, SoundCloud, or External Embeds.
+	- Enter the media asset metadata as described below or in the [[Media Asset Metadata]] support document. 
+	- Select Save. 
+	- Select the media asset you want to assign to your content item, then select the Insert Selected button.
+## Required fields for locally hosted media files 
 
-Select the type of media you want to add.  
+Select **Browse** to upload your file.  
 
-## Required fields for locally hosted media files 
-- Select **Browse** to upload your file.  
-- Names are automatically generated from the filename of the media. You can change the default name in the Name field. 
-- Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
+Names are automatically generated from the filename of the media. 
 
-## Required fields for embedded and remotely hosted media 
-- Enter the name of your media asset in the **Name** field. 
-- Enter the embed code or URL to link to your media asset.  
-- Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
-> Thumbnails are a required field for External Embeds 
+Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
+## Required fields for remotely hosted media 
 
-## These additional fields are used across all media types 
-- Identifier 
-- People 
-- Media Tags 
-- Thumbnail* 
+Enter the URL for your media asset.  
 
-## Audio Files 
-Supported audio file types: 
-- MP3, WAV, OGG, M4A 
-### Additional Audio Metadata Fields 
-- Contributor
-- Transcription 
+Filenames automatically generate for remotely hosted media.
 
-## SoundCloud 
-Insert a URL for a SoundCloud asset in the **SoundCloud URL** field.  
+Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
+## Required fields for embedded media
 
-## Documents 
-Supported document file types: 
-- PDF, PPT, PPTX, XLS, XLSX, DOC, DOCX, ODT, TXT, CSV, ODG, SXW, ODS, RTF, ZIP, RAR, GZ, 7Z, TAR 
+Enter the Name of your externally embedded media.
 
-## External Embeds 
-Insert an embed code from a remote website in the **External Embed** field.  
->A Thumbnail is required for External Embeds. 
+Enter the embed code.
 
->Note that externally hosted resources cannot be protected by cultural protocols. 
+Select and insert a thumbnail image for your external embed.
+## These additional fields are used across all media types 
 
-## Images 
-Supported image file types: 
-- JPEG, JPG, PNG, GIF, DNG, TIFF 
-    - DNG and TIFF preservation format files are not recommended
+Identifier 
 
-## Remote Video 
-Mukurtu supports remotely hosted videos from Vimeo and YouTube. 
-Insert a URL for a Vimeo or YouTube video in the **Video URL** field.  
- 
-## Uploaded Video 
-Supported video file types: 
-- MP4, WEBM, OGV
+People 
+
+Media Tags 
+
+Thumbnail
+## Audio Files 
+
+Supported audio file types: 
+
+MP3, WAV, OGG, M4A 
+### Additional Audio Metadata Fields 
+
+Contributor 
+
+Transcription 
+
+##SoundCloud 
+
+Insert a URL for a SoundCloud asset in the **SoundCloud URL** field.  
+## Documents 
+
+Supported document file types: 
+
+PDF, PPT, PPTX, XLS, XLSX, DOC, DOCX, ODT, TXT, CSV, ODG, SXW, ODS, RTF, ZIP, RAR, GZ, 7Z, TAR 
+## External Embeds 
+
+Insert an embed code from a remote website in the **External Embed** field.  
+
+> A Thumbnail is required for External Embeds. 
+
+> Note that externally hosted resources cannot be protected by cultural protocols. 
+## Images 
+
+Supported image file types: 
+
+JPEG, JPG, PNG, GIF, DNG, TIFF  
+
+DNG and TIFF preservation format files are not recommended 
+
+### Additional Image Metadata Fields
+
+Alternative Text - this is a required field for images
+
+## Remote Video 
+
+Mukurtu supports remotely hosted videos from Vimeo and YouTube.  
+
+Insert a URL for a Vimeo or YouTube video in the **Video URL** field. 
+## Uploaded Video 
+
+Supported video file types: 
+
+MP4, WEBM, OGV
+
+For more information on Media Assets, see:
+[[Media Asset Metadata]]
+[[Understanding Media Assets]]
