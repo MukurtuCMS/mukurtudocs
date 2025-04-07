@@ -46,5 +46,5 @@ Remote Video via URL - Video files can be very large, using a third party to ho
 SoundCloud Track URL - This field includes URLs for SoundCloud Tracks, Albums, and Playlists. Audio files can be very large, using a third party to host audio content for access copies saves storage space on your server. SoundCloud offers private audio hosting, allowing you to privately host content on either service, and then feed that audio into your Mukurtu site. Please note that SoundCloud has its own list of supported file formats.
 
 For more information on Media Assets, see:
-[text](UnderstandingMediaAssets.md)
-[text](upload-media-assets.md)
+[Understanding Media Assets](UnderstandingMediaAssets.md)
+[Creating Media Assets](upload-media-assets.md)
