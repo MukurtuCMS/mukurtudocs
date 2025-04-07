@@ -29,22 +29,22 @@ Media Tags - Media tags enable administrators to flag potentially sensitive medi
 
 Thumbnail* - A thumbnail image associated with the media asset. 
 - These are automatically generated for audio, video, and URL-linked assets. 
-- **This is a required field for External Embeds.**
+- ****This is a required field for External Embeds.**
 
 ## Fields unique to specific media asset types
 
-Audio File 
+Files - Upload Audio, Document, Image, or Video files 
 
-Contributor 
+Contributor - The name of the speaker or singer of a recording. Applies to Audio and SoundCloud recordings.
 
-Transcription 
+Transcription - A transcription of an Audio recording.
 
-External Embed 
+External Embed - The embed code for an external file.
 
-Image 
+Remote Video via URL - Video files can be very large, using a third party to host video content for access copies saves storage space on your server. Both YouTube (youtube.com) and Vimeo (vimeo.com) offer private and/or unlisted hosting of videos, allowing you to privately host content on either service, and then feed those videos into your Mukurtu site. Please note that each of these hosting services has their own list of supported file formats.
 
-Video URL 
+SoundCloud Track URL - This field includes URLs for SoundCloud Tracks, Albums, and Playlists. Audio files can be very large, using a third party to host audio content for access copies saves storage space on your server. SoundCloud offers private audio hosting, allowing you to privately host content on either service, and then feed that audio into your Mukurtu site. Please note that SoundCloud has its own list of supported file formats.
 
-SoundCloud URL 
-
-Video File
+For more information on Media Assets, see:
+[text](UnderstandingMediaAssets.md)
+[text](upload-media-assets.md)
