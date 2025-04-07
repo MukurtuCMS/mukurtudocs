@@ -52,9 +52,10 @@ Contributor 
 
 Transcription 
 
-##SoundCloud 
+## SoundCloud 
 
 Insert a URL for a SoundCloud asset in the **SoundCloud URL** field.  
+
 ## Documents 
 
 Supported document file types: 
