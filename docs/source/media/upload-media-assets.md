@@ -11,86 +11,32 @@ There are two ways to create a media asset: from your Dashboard or from Content 
 	- Enter the media asset metadata as described below or in the [[Media Asset Metadata]] support document. 
 	- Select Save. 
 	- Select the media asset you want to assign to your content item, then select the Insert Selected button.
+>Note that externally hosted resources cannot be protected by cultural protocols. 
 ## Required fields for locally hosted media files 
 
-Select **Browse** to upload your file.  
-
-Names are automatically generated from the filename of the media. 
-
-Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
+- Select **Browse** to upload your file.  
+- Names are automatically generated from the filename of the media. 
+- Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
 ## Required fields for remotely hosted media 
 
-Enter the URL for your media asset.  
-
-Filenames automatically generate for remotely hosted media.
-
-Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
+- Enter the URL for your media asset.  
+- Filenames automatically generate for remotely hosted media.
+- Select a **Sharing Setting** and **Cultural Protocol** to apply to your media. 
 ## Required fields for embedded media
 
-Enter the Name of your externally embedded media.
-
-Enter the embed code.
-
-Select and insert a thumbnail image for your external embed.
+- Enter the Name of your externally embedded media.
+- Enter the embed code.
+- Select and insert a thumbnail image for your external embed.
 ## These additional fields are used across all media types 
 
-Identifier 
-
-People 
-
-Media Tags 
-
-Thumbnail
-## Audio Files 
-
-Supported audio file types: 
-
-MP3, WAV, OGG, M4A 
+- Identifier 
+- People 
+- Media Tags 
+- Thumbnail
 ### Additional Audio Metadata Fields 
 
-Contributor 
-
-Transcription 
-
-## SoundCloud 
-
-Insert a URL for a SoundCloud asset in the **SoundCloud URL** field.  
-
-## Documents 
-
-Supported document file types: 
-
-PDF, PPT, PPTX, XLS, XLSX, DOC, DOCX, ODT, TXT, CSV, ODG, SXW, ODS, RTF, ZIP, RAR, GZ, 7Z, TAR 
-## External Embeds 
-
-Insert an embed code from a remote website in the **External Embed** field.  
-
-> A Thumbnail is required for External Embeds. 
-
-> Note that externally hosted resources cannot be protected by cultural protocols. 
-## Images 
-
-Supported image file types: 
-
-JPEG, JPG, PNG, GIF, DNG, TIFF  
-
-DNG and TIFF preservation format files are not recommended 
-
+- Contributor 
+- Transcription 
 ### Additional Image Metadata Fields
 
-Alternative Text - this is a required field for images
-
-## Remote Video 
-
-Mukurtu supports remotely hosted videos from Vimeo and YouTube.  
-
-Insert a URL for a Vimeo or YouTube video in the **Video URL** field. 
-## Uploaded Video 
-
-Supported video file types: 
-
-MP4, WEBM, OGV
-
-For more information on Media Assets, see:
-[[Media Asset Metadata]]
-[[Understanding Media Assets]]
+- Alternative Text - this is a required field for images

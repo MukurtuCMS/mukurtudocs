@@ -64,6 +64,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    media/SoundCloudPrivacySettings
    media/UnderstandingMediaAssets
    media/MediaAssetMetadata
+   media/MediaAssetFileFormats
 
 .. toctree::
    :maxdepth: 1
