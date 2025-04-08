@@ -6,6 +6,12 @@ These privacy settings allow your tracks, albums, and playlists to be added to t
 - **Public**
 - **Private** 
 
+To change privacy settings for your SoundCloud assets, select Edit. Change your privacy settings and select Save.
+
+![Privacy Settings](../embeds/SoundCloudprivacy1.5.png)
+
+![Privacy Settings](../embeds/SoundCloudprivacy1.png)
+
 **Scheduled** tracks are only available to paid Artist Pro subscribers. It allows you to schedule when your tracks shift from **Private** to **Public**.
 
 ## Embed permissions can limit function
