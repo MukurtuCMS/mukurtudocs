@@ -18,6 +18,6 @@ Select Edit Track.
 
 ![SoundCloud Permissions](../embeds/SoundCloudpermission2.png)
 
-Select Permissions and make sure that Display embed code is selected. No other fields are required.
+Select Permissions and make sure that Display embed code is selected. No other fields are required. 
 
 ![SoundCloud Permissions](../embeds/SoundCloudpermission3.png)
