@@ -29,7 +29,8 @@ Media Tags - Media tags enable administrators to flag potentially sensitive medi
 
 Thumbnail* - A thumbnail image associated with the media asset. 
 - These are automatically generated for audio, video, and URL-linked assets. 
-- ****This is a required field for External Embeds.**
+
+> :bulb: **This is a required field for External Embeds.**
 
 ## Fields unique to specific media asset types
 
