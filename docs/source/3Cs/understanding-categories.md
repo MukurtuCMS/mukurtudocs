@@ -12,8 +12,10 @@ If more granular terms are needed, other taxonomies such as Keywords can be appl
 
 There are many different ways that categories can be used to help users navigate digital heritage items. Some examples include:
 
-[The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/)
+<center>[The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/)</center>
 
-[The Passamaquoddy People:](https://passamaquoddypeople.com/) At Home on the Ocean and the Lakes
+<center>[The Passamaquoddy People:](https://passamaquoddypeople.com/)</center> 
+<center>At Home on the Ocean and the Lakes</center/>
 
-[Gather:](https://gather.sl.nsw.gov.au/) Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.
+<center>[Gather:](https://gather.sl.nsw.gov.au/)</center> 
+<center>Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.</center>
