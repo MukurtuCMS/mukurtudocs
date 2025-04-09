@@ -15,14 +15,17 @@ These privacy settings will not allow your videos to work as expected in Mukurtu
 
 Mukurtu cannot display Vimeo media assets if **Embed privacy** is set to **Nowhere**. 
 
-To enable this setting, select **Share**. 
+To enable this setting, select "Share". 
 
 ![Vimeo Permissions](../embeds/Vimeo.5.png)
+![An image of a Vimeo menu with a red arrow pointing to the "Share" button.](../embeds/Vimeo.5.png "Changing Vimeo permissions.")
 
 Select the **Embed** tab.
 
 ![Vimeo Permissions](../embeds/Vimeo.75.png)
+![An image of a Vimeo share menu with a red arrow pointing to the Embed tab.](../embeds/Vimeo.75.png "Changing Vimeo permissions.")
 
 Set **Embed privacy** to **Anywhere**.
 
 ![Vimeo Permissions](../embeds/Vimeo1.png)
+![An image of a Vimeo menu with a red arrow pointing to a dropdown menu that says Anywhere.](../embeds/Vimeo1.png "Changing Vimeo permissions.")
