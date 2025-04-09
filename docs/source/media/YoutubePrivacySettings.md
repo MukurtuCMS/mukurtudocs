@@ -14,10 +14,8 @@ These privacy settings will not allow your videos to work as expected in Mukurtu
 
 Mukurtu cannot display YouTube media assets if Allow embedding is not enabled. To enable this setting, select **Show more** in **Video details**.
 
-![YouTube Permissions](../embeds/YouTubepermission1.png)
 ![An image of a YouTube menu with a red arrow pointing to the "Show more" button.](../embeds/YouTubepermission1.png "Changing YouTube permissions.")
 
 Scroll down to Licensing and select **Allow embedding**.
 
-![YouTube Permissions](../embeds/YouTubepermission2.png)
 ![An image of a YouTube menu with a red arrow pointing to the selected Allow embedding checkbox.](../embeds/YouTubepermission2.png "Changing YouTube permissions.")
