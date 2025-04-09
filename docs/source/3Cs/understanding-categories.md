@@ -17,8 +17,8 @@ There are many different ways that categories can be used to help users navigate
 [The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/) 
 
 [The Passamaquoddy People:](https://passamaquoddypeople.com/) 
-At Home on the Ocean and the Lakes
+<br>At Home on the Ocean and the Lakes</br>
 
 [Gather:](https://gather.sl.nsw.gov.au/) 
-Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.
+<br>Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.</br>
 </center>
