@@ -8,7 +8,7 @@ If the categories are too broad they won’t help users narrow down their search
 
 Each digital heritage item must belong to one or more category, so select categories to reflect the types of items within your site. Most sites have between 10-15 categories. All communities on the site share the same set of categories.
 
-If more granular terms are needed, other taxonomies such as Keywords can be applied.
+If more granular terms are needed, other taxonomies such as keywords can be applied.
 
 There are many different ways that categories can be used to help users navigate digital heritage items. Some examples include:
 

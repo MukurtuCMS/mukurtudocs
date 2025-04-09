@@ -1,8 +1,8 @@
 # Creating and Editing Categories
 
-Mukurtu 4 comes preloaded with a Default category. This might change.
+Mukurtu 4 comes preloaded with a default category. This might change.
 
-## To create a new category, navigate to your Dashboard. 
+## To create a new category, navigate to your dashboard. 
 
 ![Dashboard](../embeds/categories1.PNG)
 
