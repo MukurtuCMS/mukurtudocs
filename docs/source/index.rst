@@ -50,8 +50,6 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    3Cs/creating-categories
    3Cs/ManagingCategoryTaxonomy
 
-
-
 .. toctree::
    :maxdepth: 1
    :caption: Digital Heritage Items
