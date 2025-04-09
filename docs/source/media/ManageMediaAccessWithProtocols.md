@@ -8,4 +8,4 @@ You can apply a strict protocol to a media asset and associate it with a content
 
 ![Media access with a strict protocol applied to the media asset and an open protocol applied to the digital heritage item: menu view.](../embeds/MEDIAExampleProtocol2.png)
 
-![Media access with a strict protocol applied to the media asset and an open protocol applied to the digital heritage item: page view.](../embeds/MEDIAExampleProtocol2.png)
+![Media access with a strict protocol applied to the media asset and an open protocol applied to the digital heritage item: page view.](../embeds/MEDIAExampleProtocol1.png)
