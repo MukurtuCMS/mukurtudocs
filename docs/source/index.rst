@@ -49,7 +49,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    3Cs/understanding-categories
    3Cs/creating-categories
    communities/Create-a-community-and-initial-cultural-protocol
-
+   communities/communitiestest
 
 .. toctree::
    :maxdepth: 1
