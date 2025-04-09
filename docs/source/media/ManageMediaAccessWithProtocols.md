@@ -1,6 +1,6 @@
 # Manage Media Access with Cultural Protocols
 
-Cultural protocols must be directly added to media assets in your media library. 
+Cultural protocols must be directly added to all media assets in your media library. This is a new requirement for Mukurtu v4.
 
 We strongly recommend applying the same cultural protocols to each media asset that are applied to the content items where the media asset is used. 
 
