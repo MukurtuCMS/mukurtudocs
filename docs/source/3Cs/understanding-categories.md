@@ -16,9 +16,16 @@ There are many different ways that categories can be used to help users navigate
 
 [The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/) 
 
-[The Passamaquoddy People:](https://passamaquoddypeople.com/) 
+![Plateau Peoples' Web Portal](../embeds/Browse-by-Category-Plateau-Peoples-Web-Portal.png)
+
+[The Passamaquoddy People](https://passamaquoddypeople.com/) 
 <br>At Home on the Ocean and the Lakes</br>
 
-[Gather:](https://gather.sl.nsw.gov.au/) 
+![Passamaquoddy People](../embeds/CATEGORIES-Passamaquoddy-People.png)
+
+[Gather](https://gather.sl.nsw.gov.au/) 
 <br>Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.</br>
+
+![Gather](../embeds/CATEGORIES-Gather.png)
+
 </center>
