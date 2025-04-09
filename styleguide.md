@@ -46,10 +46,17 @@
 - Eg: `[create a new issue](https://github.com/omeka/classic-enduser/issues){target=_blank}`.
 
 ### Images
-- for a page go into the `embed` directory. Name images clearly, starting with an indicator of the relevant page, and use an underscore to separate out the image's purpose (for example, `items_addItem.png`).
+- Images should never give information that is not provided in the text (or in the image alt text and title). No one with vision problems should be missing out. Think of images as a shortcut, not the only route, to understanding how to do something. 
 
-Images should never give information that is not provided in the text (or in the image alt text and title). No one with vision problems should be missing out. Think of images as a shortcut, not the only route, to understanding how to do something. 
+**Location**
+- Place all images in the `embed` directory. 
 
+**Filenames**
+- Name images clearly, starting with an indicator of the relevant page, and use an underscore to separate out the image's purpose (for example, `items_addItem.png`).
+- - CamelCase or hyphen-separated?
+- Number steps.
+
+**Alt text**
 All images should have alt text. A title can also be supplied if having some pop-up text would be useful to readers. An image entered in Markdown looks like this:
 
 ```
@@ -64,12 +71,14 @@ The maximum display width of an image in the user manuals currently is around 13
 
 A screenshot of a portion of the interface, such as the left-hand navigation, should appear at full scale for maximum readability. Currently, Omeka Classic has a left-side menu-bar width of about 200px, and a main content width of about 1040px, on a 1920x1080 screen. Expand the browser window wide enough to add some whitespace and keep things from looking cramped, but screenshots do not need to be the full width of your monitor.
 
+**Taking screenshots**
+- Use PNG images.
 
+**Image markup**
 
+*Arrows*
 
-
-
-
+*Circles?*
 
 
 ## Writing
