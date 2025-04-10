@@ -1,6 +1,7 @@
 # Create a cultural protocol
 
 >User role: Community Manager  
+
 >Reminder: You must create a community before creating a cultural protocol. 
 
 From the Mukurtu Dashboard, select **Cultural Protocols**
