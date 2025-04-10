@@ -73,6 +73,8 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :maxdepth: 1
    :caption: Collections
 
+   collections/UnderstandingCollections
+
 .. toctree::
    :maxdepth: 1
    :caption: User Management
