@@ -74,6 +74,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    :caption: Collections
 
    collections/UnderstandingCollections
+   collections/CreateCollection
 
 .. toctree::
    :maxdepth: 1
