@@ -9,7 +9,7 @@ The default browse view in Mukurtu sorts content items by the most recently upda
 
 There are many options for ways to use the collections feature. Some communities use it to create digital exhibits, such as Gather's [Living Language: Country, Culture, Community Exhibition](https://gather.sl.nsw.gov.au/collection/living-language-country-culture-community-exhibition).
 
-![Gather](../embeds/collections1.png "https://gather.sl.nsw.gov.au/collection/living-language-country-culture-community-exhibition" "Redirect to Gather")
+[![Gather](../embeds/collections1.png)]("https://gather.sl.nsw.gov.au/collection/living-language-country-culture-community-exhibition" "Redirect to Gather")
 
 Some communities use it to format educational resources and provide access to lesson plans and materials, such as the Passamaquoddy People's [Lewestuhtine collection](https://passamaquoddypeople.com/collection/lewestuhtine). 
 
