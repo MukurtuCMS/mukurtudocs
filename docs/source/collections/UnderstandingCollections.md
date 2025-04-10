@@ -1,7 +1,9 @@
 # Understanding Collections
 - User roles: Protocol steward and Curator
 
-There are two types of collections in Mukurtu: Personal collections and collections curated by protocol stewards and curators. This article addresses curated collections. For more general information on personal collections, please select this link: **CHRISTA INSERT LINK WHEN ARTICLE IS WRITTEN!!!**
+There are two types of collections in Mukurtu: Personal collections and collections curated by protocol stewards and curators. The bulk of this article addresses administrator curated collections. For more information on personal collections, please select the Personal Collections subheading in this article. 
+
+## Collections 
 
 The default browse view in Mukurtu sorts content items by the most recently updated, which may not be the way communities prefer to organize some content. To provide context or connections for some items or groups of items, communities may choose to use Mukurtu's Collections feature. Collections are a useful feature that can help protocol stewards and curators arrange content items in ways that help provide a more comprehensive context for those items. The creator of the collection determines the way the collection is arranged, including the order in which content items are displayed. Users only see those items they have access to based on their cultural protocols. Collections provide users with a more curated or guided experience of the site's content.
 
@@ -20,3 +22,7 @@ The Passamaquoddy People also used the collections feature to provide structure 
 Another example of how collections have been used is from the Sustainable Heritage Network, who used the collections feature to provide consolidated access to resources from the [Association of Tribal Archives, Libraries, and Museums (ATALM)](https://sustainableheritagenetwork.org/collection/atalm-resources) including full sessions, short video tutorials, presentations, and speeches from the 2014-2019 ATALM Annual Conferences.
 
 ![Sustainable Heritage Network](../embeds/collections4.png "Association of Tribal Archives, Libraries, and Museums resources")
+
+## Personal Collections
+
+Individual users can create personal collections of content items by adding them to their personal collection and arranging selected items in any way they choose. Users can designate their personal collections as either public or private by selecting the appropriate sharing setting when creating their collection.
