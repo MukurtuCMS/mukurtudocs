@@ -10,7 +10,7 @@
 
 - Select **Add a New Category**
 
-![Add New Category](../embeds/categories3.PNG) "An image of the "Add a new category" dropdown menu indicated by an arrow." )
+![Add New Category](../embeds/categories3.PNG "An image of the Add a new category dropdown menu indicated by an arrow.")  
 
 - Type the name of your category in the *Category Name* field.  
 - Type any descriptive information in the *Description* field. This is a rich text field that can support text, links, media items, and other formats. 
