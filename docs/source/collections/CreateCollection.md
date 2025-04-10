@@ -1,3 +1,3 @@
 # Create a Collection
 
-To create a new collection, 
+You can create a collection in Mukurtu from your **Dashboard**, from **Add Content**, or from 

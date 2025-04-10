@@ -1,6 +1,8 @@
 # Understanding Collections
 - User roles: Protocol steward and Curator
 
+There are two types of collections in Mukurtu: Personal collections and collections curated by protocol stewards and curators. This article addresses curated collections. For more general information on personal collections, please select this link: **CHRISTA INSERT LINK WHEN ARTICLE IS WRITTEN!!!**
+
 The default browse view in Mukurtu sorts content items by the most recently updated, which may not be the way communities prefer to organize some content. To provide context or connections for some items or groups of items, communities may choose to use Mukurtu's Collections feature. Collections are a useful feature that can help protocol stewards and curators arrange content items in ways that help provide a more comprehensive context for those items. The creator of the collection determines the way the collection is arranged, including the order in which content items are displayed. Users only see those items they have access to based on their cultural protocols. Collections provide users with a more curated or guided experience of the site's content.
 
 There are many options for ways to use the collections feature. Some communities use it to create digital exhibits, such as Gather's [Living Language: Country, Culture, Community Exhibition](https://gather.sl.nsw.gov.au/collection/living-language-country-culture-community-exhibition).
