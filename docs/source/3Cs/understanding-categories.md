@@ -14,18 +14,18 @@ There are many different ways that categories can be used to help users navigate
 
 <center> 
 
-[The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/) 
+[The Plateau Peoples' Web Portal](https://plateauportal.libraries.wsu.edu/)
 
-![Plateau Peoples' Web Portal](../embeds/Browse-by-Category-Plateau-Peoples-Web-Portal.png)
+![Plateau Peoples' Web Portal](../embeds/Browse-by-Category-Plateau-Peoples-Web-Portal.png "A screenshot of the categories listed on the Plateau Peoples Web Portal.")
 
 [The Passamaquoddy People](https://passamaquoddypeople.com/) 
 <br>At Home on the Ocean and the Lakes</br>
 
-![Passamaquoddy People](../embeds/CATEGORIES-Passamaquoddy-People.png)
+![Passamaquoddy People](../embeds/CATEGORIES-Passamaquoddy-People.png "A screenshot of the categories listed on the Passamaquoddy People page.")
 
 [Gather](https://gather.sl.nsw.gov.au/) 
 <br>Connecting Aboriginal communities with collections and stories from the State Library of New South Wales.</br>
 
-![Gather](../embeds/CATEGORIES-Gather.png)
+![Gather](../embeds/CATEGORIES-Gather.png "A screenshot of the categories listed on Gather's page.")
 
 </center>
