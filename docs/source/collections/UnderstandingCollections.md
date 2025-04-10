@@ -1,10 +1,20 @@
 # Understanding Collections
 - User roles: Protocol steward and Curator
 
-The default browse view in Mukurtu sorts content items by the most recently updated. Collections are a useful feature that can help protocol stewards and curators arrange content items in ways that help provide a more comprehensive context for those items. The creator of the collection determines the way the collection is arranged, including the order in which content items are displayed. Users only see those items they have access to based on their cultural protocols. Collections provide users with a more curated or guided experience of the site's content.
+The default browse view in Mukurtu sorts content items by the most recently updated, which is not always the most effective way to provide context or connections for those items. Collections are a useful feature that can help protocol stewards and curators arrange content items in ways that help provide a more comprehensive context for those items. The creator of the collection determines the way the collection is arranged, including the order in which content items are displayed. Users only see those items they have access to based on their cultural protocols. Collections provide users with a more curated or guided experience of the site's content.
 
 There are many options for ways to use the collections feature. Some communities use it to create digital exhibits, such as Gather's [Living Language: Country, Culture, Community Exhibition](https://gather.sl.nsw.gov.au/collection/living-language-country-culture-community-exhibition).
 
-Some communities use it to format educational resources and provide access to lesson plans and materials, such as the Passamaquoddy People's [Lewestuhtine collection](https://passamaquoddypeople.com/collection/lewestuhtine). The Passamaquoddy People also used the collections feature to provide structure and context for the [1890 Passamaquoddy Phonograph Recordings](https://passamaquoddypeople.com/collection/1890-passamaquoddy-phonograph-recordings), which feature the digitized phonograph recordings as well as associated field notes and related journal articles.
+![Gather](../embeds/collections1.png "Image of Gather's Living Language Country Culture Community Exhibition.")
+
+Some communities use it to format educational resources and provide access to lesson plans and materials, such as the Passamaquoddy People's [Lewestuhtine collection](https://passamaquoddypeople.com/collection/lewestuhtine). 
+
+![Passamaquoddy People](../embeds/collections2.png "Image of the Passamaquoddy People's Lewestuhtine collection")
+
+The Passamaquoddy People also used the collections feature to provide structure and context for the [1890 Passamaquoddy Phonograph Recordings](https://passamaquoddypeople.com/collection/1890-passamaquoddy-phonograph-recordings), which feature the digitized phonograph recordings as well as associated field notes and related journal articles.
+
+![Passamaquoddy People](../embeds/collections3.png "Image of the Passamaquoddy People's 1890 Passamaquoddy Phonograph Recordings collection")
 
 Another example of how collections have been used is from the Sustainable Heritage Network, who used the collections feature to provide consolidated access to resources from the [Association of Tribal Archives, Libraries, and Museums (ATALM)](https://sustainableheritagenetwork.org/collection/atalm-resources) including full sessions, short video tutorials, presentations, and speeches from the 2014-2019 ATALM Annual Conferences.
+
+![Sustainable Heritage Network](../embeds/collections4.png "Association of Tribal Archives, Libraries, and Museums resources")
