@@ -23,6 +23,6 @@ Another example of how collections have been used is from the Sustainable Herita
 
 ![Sustainable Heritage Network](../embeds/collections4.png "Association of Tribal Archives, Libraries, and Museums resources")
 
-## Personal Collections
+## Personal collections
 
 Individual users can create personal collections of content items by adding them to their personal collection and arranging selected items in any way they choose. Users can designate their personal collections as either public or private by selecting the appropriate sharing setting when creating their collection.
