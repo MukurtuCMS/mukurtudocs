@@ -68,6 +68,7 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    media/UnderstandingMediaAssets
    media/MediaAssetMetadata
    media/MediaAssetFileFormats
+   media/ManageMediaAccessWithProtocols
 
 .. toctree::
    :maxdepth: 1
