@@ -11,4 +11,4 @@ Mukurtu is designed to be used as part of an access and preservation ecosystem. 
 - Remote Video 
 - Uploaded or Local Video 
 
-You can apply media assets to Content Items and Taxonomic Records, such as Digital Heritage Items, Dictionary words, Person and Place records, as well as many other facets of Mukurtu. Most items do not have a limit on how many media assets creators can apply.
+You can apply media assets to content items and taxonomic records, such as digital heritage items, dictionary words, person and place records, and other facets of Mukurtu. Most items do not have a limit on the number of media assets.

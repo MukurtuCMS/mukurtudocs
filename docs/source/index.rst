@@ -49,7 +49,8 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    3Cs/understanding-categories
    3Cs/creating-categories
    3Cs/create-a-cultural-protocol.md
-
+   3Cs/Create-a-community-and-initial-cultural-protocol
+   3Cs/communitiestest
 
 
 .. toctree::
@@ -69,10 +70,14 @@ The complete Mukurtu Support Documentation can be downloaded as a PDF here: `Lat
    media/UnderstandingMediaAssets
    media/MediaAssetMetadata
    media/MediaAssetFileFormats
+   media/ManageMediaAccessWithProtocols
 
 .. toctree::
    :maxdepth: 1
    :caption: Collections
+
+   collections/UnderstandingCollections
+   collections/CreateCollection
 
 .. toctree::
    :maxdepth: 1
