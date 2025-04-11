@@ -1,4 +1,4 @@
-# Creating and Editing Categories
+# Create and Edit Categories
 
 ## To create a new category, navigate to your dashboard. 
 
