@@ -28,7 +28,7 @@ We will start with filling out the information contained in the **Mukurtu Essent
 
 3. Use the *Summary* field to provide a summary of your collection. This field is limited to 255 characters. 
 
-4. Select the *Description* field to provide a description of your collection. This is a full HTML field that can also supports additional media items.
+4. Use the *Description* field to provide a description of your collection. This is a full HTML field that can also supports additional media items.
 
 ![Create Collections](../embeds/collections_how_to5.png "An image with arrows indicating the location of the summary and description fields and a box highlighting the additional media items option.")
 
@@ -47,14 +47,14 @@ We will start with filling out the information contained in the **Mukurtu Essent
     - To add a polyline, select the second draw marker to the right of the map.
     - To add a rectangle, select the third draw marker to the right of the map.
     - To add a polygon, select the fourth draw marker to the right of the map.
-
+    
 9. Add a *Location Description*. This field can be used to add additional context to the mapped location. If a location is identified but not precisely located on a map this field can be used instead of the mapped location. This is a full HTML field that can also supports additional media items.
 
 10. In the *Location* field, provide a taxonomic location term for your collection.
 
 You can save your Collection at this point. Return to the top of your page to select the **Relations** tab to add content to your collection.
 
-11. In the **Items in Collection** section, select the "Select Content" button. Digital heritage items, person records, dictionary words, and other content items can be included in a collection.
+11. In the **Items in Collection** section, select the "Select Content" button. Digital heritage items, person records, dictionary words, and other content items can be included in a collection. 
 
 12. Select the checkbox beside all the content items you wish to include in the collection, then scroll down and select "Add Content".
 
